@@ -1,0 +1,38 @@
+{"base_spec":"/pa/units/land/energy_plant/energy_plant.json","display_name":"!LOC:Foundation Energy Plant","unit_types":["UNITTYPE_Structure","UNITTYPE_EnergyProduction","UNITTYPE_Basic","UNITTYPE_CmdBuild","UNITTYPE_FabBuild","UNITTYPE_Economy", "UNITTYPE_Custom2"],
+  "area_build_separation": 0,
+  	"lamps": [{
+		"offset": [5.25, 0.0, 6.75],
+		"radius": 2.0,
+		"color": [1.0, 0.0, 1.0],
+		"intensity": 3.0
+	}, {
+		"offset": [-5.25, 0.0, 6.75],
+		"radius": 2.0,
+		"color": [1.0, 0.0, 1.0],
+		"intensity": 3.0
+	}, {
+		"offset": [0.0, -5.25, 6.75],
+		"radius": 2.0,
+		"color": [1.0, 0.0, 1.0],
+		"intensity": 3.0
+	}, {
+		"offset": [0.0, -2.71, 1.1],
+		"radius": 3.0,
+		"color": [1.0, 0.0, 1.0],
+		"intensity": 2.0,
+		"bone": "bone_rotor"
+	}, {
+		"offset": [-2.44, 1.34, 1.1],
+		"radius": 3.0,
+		"color": [1.0, 0.0, 1.0],
+		"intensity": 2.0,
+		"bone": "bone_rotor"
+	}, {
+		"offset": [2.44, 1.34, 1.1],
+		"radius": 3.0,
+		"color": [1.0, 0.0, 1.0],
+		"intensity": 2.0,
+		"bone": "bone_rotor"
+	}],
+  "placement_size": [11.15, 11.15]
+  }

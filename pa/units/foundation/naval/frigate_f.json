@@ -1,0 +1,11 @@
+{"base_spec":"/pa/units/sea/frigate/frigate.json","display_name":"!LOC:Foundation Narwhal",
+	"navigation": {
+		"type": "deepwater",
+		"acceleration": 30,
+		"brake": 90,
+		"move_speed": 10,
+		"turn_speed": 60,
+		"turn_accel": 30,
+		"group_preference": "back"
+	},
+"unit_types":["UNITTYPE_Naval","UNITTYPE_Mobile","UNITTYPE_Offense","UNITTYPE_Basic","UNITTYPE_AirDefense","UNITTYPE_FactoryBuild","UNITTYPE_Custom2"]}

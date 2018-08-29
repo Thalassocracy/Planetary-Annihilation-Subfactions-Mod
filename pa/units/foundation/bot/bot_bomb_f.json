@@ -1,0 +1,2 @@
+{"base_spec":"/pa/units/land/bot_bomb/bot_bomb.json","display_name":"!LOC:Foundation Boom","description":"!LOC:25% slower; Bomb bot - Self-Destructs to deal very heavy damage over an area.","unit_types":["UNITTYPE_Bot","UNITTYPE_Mobile","UNITTYPE_Land","UNITTYPE_Basic","UNITTYPE_FactoryBuild","UNITTYPE_CannonBuildable","UNITTYPE_Offense","UNITTYPE_SelfDestruct", "UNITTYPE_Custom2"],
+"navigation":{"type":"land-small","acceleration":400,"brake":-1,"move_speed":30,"turn_speed":720}}

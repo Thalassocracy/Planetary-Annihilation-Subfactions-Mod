@@ -1,0 +1,3 @@
+{"base_spec":"/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json","display_name":"!LOC:Advanced Foundation Torpedo Launcher",
+
+"unit_types":["UNITTYPE_Structure","UNITTYPE_Advanced","UNITTYPE_Naval","UNITTYPE_Defense","UNITTYPE_FabAdvBuild", "UNITTYPE_Custom2"]}

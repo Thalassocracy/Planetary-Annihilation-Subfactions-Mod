@@ -1,0 +1,41 @@
+{
+	"base_spec": "/pa/units/land/titan_structure/titan_structure.json",
+	"display_name": "!LOC:Armageddon",
+	"description": "!LOC:Generates 300 m/s while charging, and heals up to four nearby units for up to 100 m/s each. Charge-up time is doubled. 25% more health. Massive vision radius; Doomsday Titan- Destroys the planet it's built on once finished.",
+	"max_health": 18750,
+	"unit_types": ["UNITTYPE_Structure", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_SelfDestruct", "UNITTYPE_FabAdvBuild", "UNITTYPE_Important", "UNITTYPE_Custom2"],
+	"command_caps": ["ORDER_Repair"],
+	"recon": {
+		"observable": {
+			"always_visible": true
+		},
+		"observer": {
+			"items": [{
+				"layer": "surface_and_air",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 1000
+			}, {
+				"layer": "underwater",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 1000
+			}]
+		}
+	},
+	"tools": [{
+		"spec_id": "/pa/units/foundation/utility/armageddon_chargeup.json",
+		"aim_bone": "bone_root"
+	},
+	{	"spec_id": "/pa/units/foundation/utility/armageddon_heal.json",
+		"aim_bone": "bone_root"},
+	{	"spec_id": "/pa/units/foundation/utility/armageddon_heal2.json",
+		"aim_bone": "bone_root"},
+	{	"spec_id": "/pa/units/foundation/utility/armageddon_heal3.json",
+		"aim_bone": "bone_root"},
+	{	"spec_id": "/pa/units/foundation/utility/armageddon_heal4.json",
+		"aim_bone": "bone_root"},
+	],
+	"storage":{"metal":100000},
+	"production":{"metal":300},
+}

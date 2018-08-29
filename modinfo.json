@@ -1,0 +1,26 @@
+ {
+   "context": "server",
+   "identifier": "com.pa.dissonant.subfactions3",
+   "display_name": "Subfactions Test 3",
+   "description": "Just Foundation for now",
+   "author": "Dissonant",
+   "version": "1",
+   "build": "105067",
+   "date": "2018-08-12",
+   "signature": "not yet implemented",
+   "forum": "",
+   "priority": 100,
+   "icon": "",
+
+   "titansOnly": true,
+
+   "category": ["balance"],
+    "scenes": {
+        "new_game": [
+            "coui://ui/mods/com.pa.dissonant.subfactions/new_game.js"
+        ]
+    }
+   
+   
+   
+ }

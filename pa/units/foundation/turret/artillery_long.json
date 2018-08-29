@@ -1,0 +1,3 @@
+{"base_spec":"/pa/units/land/artillery_long/artillery_long.json","display_name":"!LOC: Foundation Holkins",
+
+"unit_types":["UNITTYPE_Land","UNITTYPE_Structure","UNITTYPE_Defense","UNITTYPE_Artillery","UNITTYPE_Advanced","UNITTYPE_FabAdvBuild","UNITTYPE_Important", "UNITTYPE_Custom2"]}

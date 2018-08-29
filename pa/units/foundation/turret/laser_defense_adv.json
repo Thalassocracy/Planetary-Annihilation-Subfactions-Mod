@@ -1,0 +1,2 @@
+{"base_spec":"/pa/units/land/laser_defense_adv/laser_defense_adv.json","display_name":"!LOC:Advanced Foundation Laser Defense Tower",
+"unit_types":["UNITTYPE_Structure","UNITTYPE_Advanced","UNITTYPE_Land","UNITTYPE_SurfaceDefense","UNITTYPE_Defense","UNITTYPE_FabAdvBuild", "UNITTYPE_Custom2"]}

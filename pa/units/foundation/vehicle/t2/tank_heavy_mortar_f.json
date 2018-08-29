@@ -1,0 +1,3 @@
+{"base_spec":"/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json","display_name":"!LOC:Foundation Sheller",
+
+"unit_types":["UNITTYPE_Tank","UNITTYPE_Mobile","UNITTYPE_Offense","UNITTYPE_Land","UNITTYPE_Artillery","UNITTYPE_Advanced","UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"]}

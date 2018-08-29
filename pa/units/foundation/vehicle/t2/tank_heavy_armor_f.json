@@ -1,0 +1,36 @@
+{
+	"base_spec": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.json",
+	"display_name": "!LOC:Foundation Paladin",
+	"description": "!LOC:Repairs nearby units for 80 metal per second. Does not use energy. No Radar (modified Vanguard); Advanced short range, heavily armored vehicle.",
+	"build_metal_cost": 1500,
+	"unit_types": ["UNITTYPE_Tank", "UNITTYPE_Heavy", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
+	"recon": {
+		"observer": {
+			"items": [{
+				"layer": "surface_and_air",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 100
+			}, {
+				"layer": "underwater",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 100
+			}]
+		}
+	},
+	"tools": [{
+		"spec_id": "/pa/units/land/tank_heavy_armor/tank_heavy_armor_tool_weapon.json",
+		"aim_bone": "bone_turret",
+		"muzzle_bone": "socket_muzzle"
+	},
+	{	"spec_id": "/pa/units/foundation/vehicle/t2/tank_heavy_armor_arm.json",
+		"aim_bone": "bone_turret"}
+		],
+	"fx_offsets": [{
+		"type": "build",
+		"filename": "/pa/effects/specs/fab_spray.pfx",
+		"bone": "bone_turret",
+		"orientation": [0, 0, 0]
+	}]
+}

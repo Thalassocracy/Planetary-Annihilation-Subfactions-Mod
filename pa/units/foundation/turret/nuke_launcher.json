@@ -1,0 +1,2 @@
+{"base_spec":"/pa/units/land/nuke_launcher/nuke_launcher.json","display_name":"!LOC:Foundation Nuclear Missile Launcher",
+"unit_types":["UNITTYPE_Land","UNITTYPE_Structure","UNITTYPE_Offense","UNITTYPE_Advanced","UNITTYPE_Nuke","UNITTYPE_Factory","UNITTYPE_FabAdvBuild","UNITTYPE_Important", "UNITTYPE_Custom2"]}

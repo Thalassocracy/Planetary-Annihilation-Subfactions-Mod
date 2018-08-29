@@ -1,0 +1,2 @@
+{"base_spec":"/pa/units/foundation/utility/energy_plant_f","display_name":"!LOC:Foundation Energy Plant","unit_types":["UNITTYPE_Structure","UNITTYPE_EnergyProduction","UNITTYPE_Basic","UNITTYPE_CmdBuild","UNITTYPE_FabBuild","UNITTYPE_Economy", "UNITTYPE_Custom2"],
+  "area_build_type": "Sphere"}

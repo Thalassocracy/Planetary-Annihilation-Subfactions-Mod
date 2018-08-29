@@ -1,0 +1,28 @@
+
+{
+	"base_spec": "/pa/units/air/gunship/gunship.json",
+	"display_name": "!LOC:Foundation Redeemer",
+	"description": "!LOC:Gunship- Fast. Durable. Attacks land and sea targets. Additional moderate anti-air attack.",
+	"max_health": 500,
+	"build_metal_cost": 900,
+	"unit_types": ["UNITTYPE_Gunship", "UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
+
+	"tools": [{
+		"spec_id": "/pa/units/foundation/air/t2/gunship_tool_weapon.json",
+		"aim_bone": "bone_rightRecoil",
+		"muzzle_bone": "socket_rightMuzzle"
+	}, {
+		"spec_id": "/pa/units/foundation/air/t2/gunship_tool_weapon.json",
+		"aim_bone": "bone_leftRecoil",
+		"muzzle_bone": "socket_leftMuzzle"
+	}, {
+		"spec_id": "/pa/units/foundation/air/t2/gunship_aa.json",
+		"aim_bone": "bone_rightRecoil",
+		"muzzle_bone": "socket_rightMuzzle"
+	}, {
+		"spec_id": "/pa/units/foundation/air/t2/gunship_aa.json",
+		"aim_bone": "bone_leftRecoil",
+		"muzzle_bone": "socket_leftMuzzle"
+	}
+	]
+}

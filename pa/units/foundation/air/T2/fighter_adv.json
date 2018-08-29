@@ -1,0 +1,39 @@
+{
+	"base_spec": "/pa/units/air/fighter_adv/fighter_adv.json",
+	"display_name": "!LOC:Foundation Omen",
+	"description": "!LOC:Heavy interplanetary fighter. Very fast and tanky, but low range and vision. High area of effect damage, but slow rate of fire; prone to overkill.",
+	"build_metal_cost": 574,
+	"max_health": 450,
+	"unit_types": ["UNITTYPE_Fighter", "UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
+	"navigation": {
+		"type": "air",
+		"inter_planetary_type": "system",
+		"acceleration": 400,
+		"brake": 400,
+		"move_speed": 112,
+		"turn_speed": 720,
+		"aggressive_distance": 50.0,
+		"bank_factor": 10,
+		"vertical_speed": 50
+	},
+	"recon": {
+		"observer": {
+			"items": [{
+				"layer": "surface_and_air",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 30
+			}, {
+				"layer": "underwater",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 30
+			}]
+		}
+	},
+	"tools": [{
+		"spec_id": "/pa/units/foundation/air/t2/fighter_adv_tool_weapon.json",
+		"aim_bone": "bone_root",
+		"muzzle_bone": ["socket_leftMuzzle", "socket_rightMuzzle"]
+	}]
+}

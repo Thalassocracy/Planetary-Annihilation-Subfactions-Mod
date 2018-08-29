@@ -1,0 +1,9 @@
+{"base_spec":"/pa/tools/base_shell_turret/base_shell_turret.json","ammo_id":"/pa/units/foundation/naval/destroyer_ammo.json","rate_of_fire":40,"max_range":125,"yaw_rate":90,"pitch_rate":90,"yaw_range":180,"pitch_range":60,"auto_attack":true,"target_layers":["WL_LandHorizontal","WL_WaterSurface"],
+
+"ammo_capacity":6,
+"ammo_demand":3,
+"ammo_per_shot":2,
+"ammo_source": "time",
+"firing_standard_deviation": 100,
+"carpet_fire":true,
+"carpet_wait_for_full_ammo":true}

@@ -1,0 +1,2 @@
+{"base_spec":"/pa/units/sea/torpedo_launcher/torpedo_launcher.json","display_name":"!LOC:Foundation Torpedo Launcher",
+"unit_types":["UNITTYPE_Structure","UNITTYPE_Basic","UNITTYPE_Naval","UNITTYPE_Defense","UNITTYPE_CmdBuild","UNITTYPE_FabBuild", "UNITTYPE_Custom2"]}

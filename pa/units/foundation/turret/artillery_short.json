@@ -1,0 +1,2 @@
+{"base_spec":"/pa/units/land/artillery_short/artillery_short.json","display_name":"!LOC:Foundation Pelter",
+"unit_types":["UNITTYPE_Structure","UNITTYPE_Artillery","UNITTYPE_Defense","UNITTYPE_FabBuild","UNITTYPE_Basic", "UNITTYPE_Custom2"]}

@@ -1,0 +1,2 @@
+{"base_spec":"/pa/units/land/air_defense_adv/air_defense_adv.json","display_name":"!LOC:Foundation Flak Cannon",
+"unit_types":["UNITTYPE_Structure","UNITTYPE_Advanced","UNITTYPE_Land","UNITTYPE_AirDefense","UNITTYPE_Defense","UNITTYPE_FabAdvBuild", "UNITTYPE_Custom2"]}

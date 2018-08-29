@@ -1,0 +1,2 @@
+{"base_spec":"/pa/units/land/metal_extractor/metal_extractor.json","display_name":"!LOC:Foundation Metal Extractor",
+"unit_types":["UNITTYPE_Structure","UNITTYPE_Basic","UNITTYPE_MetalProduction","UNITTYPE_CmdBuild","UNITTYPE_FabBuild","UNITTYPE_Economy", "UNITTYPE_Custom2"]}

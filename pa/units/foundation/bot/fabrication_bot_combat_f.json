@@ -1,0 +1,15 @@
+{
+	"base_spec": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json",
+	"display_name": "!LOC:Foundation Priest",
+	"description": "!LOC: Repair unit. Does not use energy. Can build Passageways",
+	"max_health": 75,
+	"build_metal_cost": 65,
+	"buildable_types": "CombatFabBuild & Custom2 - Custom1 - Custom3 - Custom4 - Custom5",
+	"unit_types": ["UNITTYPE_Custom2", "UNITTYPE_Construction", "UNITTYPE_Bot", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_CannonBuildable"],
+	"command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Build", "ORDER_Repair", "ORDER_Assist", "ORDER_Use"],
+	"tools": [{
+		"spec_id": "/pa/units/foundation/bot/fabber_combat_arm.json",
+		"aim_bone": "bone_root"
+	}],
+	"navigation":{"type":"land-small","acceleration":120,"brake":-1,"move_speed":10,"turn_speed":720,"group_preference":"back"}
+}
