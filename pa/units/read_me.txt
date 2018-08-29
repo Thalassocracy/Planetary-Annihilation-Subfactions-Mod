@@ -28,8 +28,9 @@ Grenadier:
 Spark:
 0.71x movement speed (14 -> 10)
 
-Boombot:
+Martyr (replaces Boombot):
 0.75x movement speed (40 -> 30)
+Hover
 
 Priest (replaces Stitch):
 0.21x cost (300 -> 62.5)
@@ -113,6 +114,45 @@ Missile interception removed
 
 
 ___
+NAVAL:
+
+Vicar (replaces Barnacle):
+2x health (500 -> 1000)
+Does not use energy.
+Cannot reclaim.
+Cannot build.
+Group preference changed to back.
+
+Narwhal:
+1.11x movement speed (9 -> 10)
+Group preference changed to back.
+
+Halcyon (new unit):
+Tanky low-range hover unit.
+Only attacks submerged units.
+350 range Sonar.
+
+Barracuda:
+removed
+
+Oathkeeper (replaces Orca):
+1.08x metal cost (600 -> 650)
+1.2x health (1500 -> 1800)
+0.69x range (180 -> 125)
+Both normal weapons removed.
+Fires barrage of 6 missiles, doing 75 damage each, every 2 seconds.
+Missiles are more likely to fail to acquire targets at max range.
+Can only target watersurface and ground.
+
+Borealis (new unit):
+Rapid-firing anti-orbital and anti-air unit with 250 (massive) range.
+Does 1200 DPS split on up to 25 different targets.
+Cannot target ground, naval, or submerged units.
+Requires 2000 energy per second to maintain weapons.
+
+Stingray:
+removed
+___
 TITANS:
 
 Mithras (replaces Atlas):
@@ -150,5 +190,5 @@ Has 4 healing beams, which each repair units within 300 range for 100 metal per 
 Has massive vision radius (1000)
 Leaves no reclaim
 
-*Orbital and Naval not implemented at the moment. Will probably replace orbital energy generator with orbital healing drone. Barnacle will probably be adapted into another healing unit.
+*Orbital not implemented at the moment. Will probably replace orbital energy generator with orbital healing drone.
 
