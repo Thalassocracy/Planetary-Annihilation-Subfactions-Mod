@@ -256,9 +256,23 @@ var Build = (function() {
         "/pa/units/foundation/air/transport.json": ["airf", 16],
 		
 
-        "/pa/units/foundation/naval/destroyer_f.json": ["sea", 14],
-        "/pa/units/foundation/naval/sub_hunter_f.json": ["sea", 15],
-		"/pa/units/foundation/naval/t2/borealis_f.json": ["sea", 8]
+        
+		
+		
+		"/pa/units/foundation/naval/carrier_f.json": ["seaf",0],
+
+        "/pa/units/foundation/naval/fabrication_ship_adv_f.json": ["seaf",6],
+        "/pa/units/foundation/naval/battleship_f.json": ["seaf", 7],
+        "/pa/units/foundation/naval/t2/borealis_f.json": ["sea", 8],
+        "/pa/units/foundation/naval/nuclear_sub_f.json": ["seaf", 9],
+        "/pa/units/foundation/naval/hover_ship_f.json": ["seaf",10],
+
+        "/pa/units/foundation/naval/fabrication_ship_f.json": ["seaf", 12],
+        "/pa/units/foundation/naval/frigate_f.json": ["seaf", 13],
+        "/pa/units/foundation/naval/destroyer_f.json": ["seaf", 14],
+        "/pa/units/foundation/naval/sub_hunter_f.json": ["seaf", 15],
+        "/pa/units/foundation/naval/sea_scout_f.json": ["seaf", 16],
+        "/pa/units/foundation/naval/fabrication_barge_f.json": ["seaf",17]
 
 		
 		

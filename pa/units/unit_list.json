@@ -81,8 +81,19 @@
         "/pa/units/foundation/vehicle/land_scout_f.json",
         "/pa/units/foundation/vehicle/aa_missile_vehicle_f.json",
 		
-		"/pa/units/foundation/naval/sub_hunter_f.json",
-		"/pa/units/foundation/naval/destroyer_f.json",
-		"/pa/units/foundation/naval/t2/borealis_f.json"
+		"/pa/units/foundation/naval/carrier_f.json",
+
+        "/pa/units/foundation/naval/fabrication_ship_adv_f.json",
+        "/pa/units/foundation/naval/battleship_f.json",
+        "/pa/units/foundation/naval/t2/borealis_f.json",
+        "/pa/units/foundation/naval/nuclear_sub_f.json",
+        "/pa/units/foundation/naval/hover_ship_f.json",
+
+        "/pa/units/foundation/naval/fabrication_ship_f.json",
+        "/pa/units/foundation/naval/frigate_f.json",
+        "/pa/units/foundation/naval/destroyer_f.json",
+        "/pa/units/foundation/naval/sub_hunter_f.json",
+        "/pa/units/foundation/naval/sea_scout_f.json",
+        "/pa/units/foundation/naval/fabrication_barge_f.json"
 
 ]}
