@@ -1,1 +1,1 @@
-model.localChatMessage(loc("!LOC:Subfaction Mod"), loc("!LOC:currently a work in progress. To play as Foundation, select Nemicus (orbital, ragnarok, & some naval missing)."));
+model.localChatMessage(loc("!LOC:Subfaction Mod"), loc("!LOC:currently a work in progress. To play as Foundation, select Nemicus (orbital and ragnarok missing). Some icons are missing."));
