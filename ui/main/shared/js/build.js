@@ -259,13 +259,13 @@ var Build = (function() {
         
 		
 		
-		"/pa/units/foundation/naval/carrier_f.json": ["seaf",0],
+		"/pa/units/foundation/naval/t2/carrier_f.json": ["seaf",0],
 
-        "/pa/units/foundation/naval/fabrication_ship_adv_f.json": ["seaf",6],
-        "/pa/units/foundation/naval/battleship_f.json": ["seaf", 7],
-        "/pa/units/foundation/naval/t2/borealis_f.json": ["sea", 8],
-        "/pa/units/foundation/naval/nuclear_sub_f.json": ["seaf", 9],
-        "/pa/units/foundation/naval/hover_ship_f.json": ["seaf",10],
+        "/pa/units/foundation/naval/t2/fabrication_ship_adv_f.json": ["seaf",6],
+        "/pa/units/foundation/naval/t2/battleship_f.json": ["seaf", 7],
+        "/pa/units/foundation/naval/t2/borealis_f.json": ["seaf", 8],
+        "/pa/units/foundation/naval/t2/nuclear_sub_f.json": ["seaf", 9],
+        "/pa/units/foundation/naval/t2/hover_ship_f.json": ["seaf",10],
 
         "/pa/units/foundation/naval/fabrication_ship_f.json": ["seaf", 12],
         "/pa/units/foundation/naval/frigate_f.json": ["seaf", 13],

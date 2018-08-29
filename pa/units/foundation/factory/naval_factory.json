@@ -6,5 +6,5 @@
 		"spec_id": "/pa/units/foundation/factory/naval_factory_build_arm.json",
 		"aim_bone": "bone_root"
 	}],
-	"unit_types":["UNITTYPE_Custom2","UNITTYPE_Factory","UNITTYPE_Basic","UNITTYPE_Construction","UNITTYPE_Naval","UNITTYPE_Structure","UNITTYPE_Advanced","UNITTYPE_Important"]
+	"unit_types":["UNITTYPE_Custom2","UNITTYPE_Factory","UNITTYPE_Basic","UNITTYPE_Construction","UNITTYPE_Naval","UNITTYPE_Structure","UNITTYPE_Important", "UNITTYPE_CmdBuild","UNITTYPE_FabBuild"]
 }
