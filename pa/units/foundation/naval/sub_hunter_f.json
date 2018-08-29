@@ -6,7 +6,7 @@
 	"max_health": 2500,
 	"spawn_layers": "WL_DeepWater",
 	"armor_type": "AT_Hover",
-	"mesh_bounds": [4, 24, 7],
+	"mesh_bounds": [4.93769, 6.4, 2.6835],
 	"unit_types": ["UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Basic", "UNITTYPE_Hover", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
 	"guard_layer": "WL_AnySurface",
 	"navigation": {

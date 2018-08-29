@@ -1,0 +1,21 @@
+{
+	"base_spec": "/pa/units/sea/nuclear_sub/nuclear_sub.json",
+	"display_name": "!LOC:Foundation Kraken",
+	"description": "!LOC:Stealth Sub- Very high damage. Radar stealth. Attacks land, sea, and undersea targets.",
+
+	"unit_types": ["UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Sub", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
+
+	"tools": [{
+		"spec_id": "/pa/units/foundation/naval/t2/nuclear_sub_tool_weapon.json",
+		"aim_bone": "socket_muzzle01",
+		"record_index": 0,
+		"fire_event": "fired0",
+		"muzzle_bone": "socket_muzzle01"
+	}, {
+		"spec_id": "/pa/units/foundation/naval/t2/nuclear_sub_tool_weapon_missile.json",
+		"aim_bone": "socket_muzzle02",
+		"record_index": 1,
+		"fire_event": "fired1",
+		"muzzle_bone": ["socket_muzzle02", "socket_muzzle03", "socket_muzzle04", "socket_muzzle05"]
+	}]
+}
