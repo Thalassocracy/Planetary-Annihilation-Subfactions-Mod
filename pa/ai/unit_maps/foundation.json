@@ -240,9 +240,6 @@
     "F_Utility_Teleporter": {
       "spec_id": "/pa/units/foundation/utility/teleporter.json"
     },
-    "F_Utility_Titan": {
-      "spec_id": "/pa/units/foundation/utility/titan_structure.json"
-    },
     "F_Tank_AA": {
       "spec_id": "/pa/units/foundation/tank/aa_missile_vehicle_f.json"
     },
