@@ -20,6 +20,7 @@
         "/pa/units/foundation/utility/delta_v_engine.json",
         "/pa/units/foundation/utility/radar.json",
         "/pa/units/foundation/utility/energy_plant.json",
+		"/pa/units/foundation/utility/energy_plant_2_f.json",
         "/pa/units/foundation/utility/metal_extractor.json",
         "/pa/units/foundation/utility/land_barrier.json",
         "/pa/units/foundation/utility/teleporter.json",

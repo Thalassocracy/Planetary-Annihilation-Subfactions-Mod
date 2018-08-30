@@ -202,7 +202,7 @@ var Build = (function() {
 		"/pa/units/foundation/utility/titan_structure.json": ["utilityf", 0],
         "/pa/units/foundation/utility/control_module.json": ["utilityf", 1],
         "/pa/units/foundation/utility/radar_adv.json": ["utilityf", 8],
-        "/pa/units/foundation/utility/energy_plant_adv.json": ["utilityf", 3],
+        "/pa/units/foundation/utility/energy_plant_2_f.json": ["utilityf", 3],
         "/pa/units/foundation/utility/metal_extractor_adv.json": ["utilityf", 4],
         "/pa/units/foundation/utility/delta_v_engine.json": ["utilityf", 7],
         "/pa/units/foundation/utility/radar.json": ["utilityf", 14],

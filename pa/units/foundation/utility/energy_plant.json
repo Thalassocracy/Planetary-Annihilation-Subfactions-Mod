@@ -34,5 +34,9 @@
 		"intensity": 2.0,
 		"bone": "bone_rotor"
 	}],
-  "placement_size": [11.15, 11.15]
+  "placement_size": [10, 10],
+  "mesh_bounds": [
+    5,
+    5,
+    5]
   }

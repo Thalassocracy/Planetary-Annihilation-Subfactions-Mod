@@ -17,6 +17,13 @@ Metal Storage:
 Energy Storage: 
 0.5x capacity (100000 -> 50000)
 
+Energy Plant:
+33% smaller build distance (15 -> 10)
+Smaller Mesh size ([5,5,5] -> [10,10,11.3]
+
+Energy Plant (circle) {new unit}:
+Same as energy plant, but built in a circular formation.
+
 Advanced Energy Plant:
 removed
 
