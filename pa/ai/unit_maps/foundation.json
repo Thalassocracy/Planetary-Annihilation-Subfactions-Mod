@@ -255,9 +255,6 @@
     "F_Tank_Armor": {
       "spec_id": "/pa/units/tank/tank_armor_f.json"
     },
-    "F_Tank_": {
-      "spec_id": "/pa/units/tank/.json"
-    },
     "F_Tank_Laser": {
       "spec_id": "/pa/units/tank/tank_light_laser_f.json"
     },
