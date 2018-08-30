@@ -211,10 +211,10 @@
       "spec_id": "/pa/units/foundation/utility/delta_v_engine.json"
     },
     "F_Utility_Energy2": {
-      "spec_id": "/pa/units/foundation/utility/energy_plant_2.json"
+      "spec_id": "/pa/units/foundation/utility/energy_plant_2_f.json"
     },
     "F_Utility_Energy": {
-      "spec_id": "/pa/units/foundation/utility/energy_plant_2.json"
+      "spec_id": "/pa/units/foundation/utility/energy_plant.json"
     },
     "F_Utility_StorageEnergy": {
       "spec_id": "/pa/units/foundation/utility/energy_storage.json"
