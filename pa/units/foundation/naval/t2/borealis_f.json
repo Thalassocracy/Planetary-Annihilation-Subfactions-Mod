@@ -3,7 +3,7 @@
 	"display_name": "!LOC:Borealis",
 	"description": "!LOC:Laser Ship- Long range anti-air and anti-orbital attack. Uses 2000 energy per second while firing.",
 	"max_health": 2500,
-	"build_metal_cost": 4000,
+	"build_metal_cost": 4500,
 	"unit_types": ["UNITTYPE_Naval", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_Tactical", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
 	"tools": [{
 		"spec_id": "/pa/units/foundation/naval/t2/borealis_weapon.json",
