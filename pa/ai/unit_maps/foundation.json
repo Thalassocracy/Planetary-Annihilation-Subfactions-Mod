@@ -81,7 +81,7 @@
     "F_Bot_Adv_Assault": {
       "spec_id": "/pa/units/bot/t2/assault_bot_adv_f.json"
     },
-    "F_Bot_Adv_Sniper": {
+    "F_Bot_Adv_Artillery": {
       "spec_id": "/pa/units/bot/t2/bot_sniper_f.json"
     },
     "F_Bot_Adv_Tactical": {
