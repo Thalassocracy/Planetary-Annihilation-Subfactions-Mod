@@ -19,7 +19,10 @@
         "new_game": [
             "coui://ui/mods/com.pa.dissonant.subfactions/new_game.js"
         ]
-    }
+    },
+    "dependencies": [
+      "com.pa.quitch.qAIModCompatibilityPatch"
+    ]
    
    
    
