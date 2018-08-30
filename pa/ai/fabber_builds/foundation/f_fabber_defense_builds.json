@@ -1138,7 +1138,7 @@
       "name": "Foundation - Wall",
       "to_build": "F_Utility_Wall",
       "instance_count": 1,
-      "priority": 0,
+      "priority": 85,
       "base_sort": "FromPerimeter",
       "builders": [
         "AnyFoundationBasicFabber",
@@ -1161,6 +1161,12 @@
             "value0": 1
           },
           {
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & Wall",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "F_Utility_Wall"
           }
@@ -1173,15 +1179,15 @@
             "unit_type_string": "Structure & Defense - AirDefense",
             "alliance": "Ally",
             "compare_type": ">=",
-            "range": 8,
+            "range": 40,
             "count": 1
           },
           {
             "unit_type_string": "Structure & Wall",
             "alliance": "Ally",
             "compare_type": "<",
-            "range": 20,
-            "count": 4
+            "range": 40,
+            "count": 1
           }
         ]
       }
