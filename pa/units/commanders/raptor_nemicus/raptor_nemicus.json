@@ -3,7 +3,7 @@
 	"display_name": "Nemicus Commander",
 	"si_name": "commander_f",
 	"description": "Raptor Nemicus Commander",
-	"buildable_types": "CmdBuild & Custom2 - Custom1 - Custom3 - Custom4 - Custom5",
+	"buildable_types": "CmdBuild & Custom2 - Custom1 - Custom3 - Custom4",
 	"production": {
 		"energy": 2400,
 		"metal": 20
