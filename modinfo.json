@@ -1,16 +1,16 @@
  {
    "context": "server",
-   "identifier": "com.pa.dissonant.subfactions3",
-   "display_name": "Subfactions Test 3",
+   "identifier": "com.pa.dissonant.subfactions",
+   "display_name": "Subfactions Test (Foundation Only)",
    "description": "Just Foundation for now",
    "author": "Dissonant",
    "version": "1",
-   "build": "105067",
-   "date": "2018-08-12",
+   "build": "110069",
+   "date": "2018-08-29",
    "signature": "not yet implemented",
-   "forum": "",
+   "forum": "https://forums.uberent.com/threads/wip-server-mla-subfactions-mod.73106/",
    "priority": 100,
-   "icon": "",
+   "icon": "https://i.imgur.com/03Zd5iH.png",
 
    "titansOnly": true,
 
