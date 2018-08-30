@@ -3,6 +3,9 @@
     "FoundationCommander": {
       "unit_types": "Commander & Custom2 - Custom1 - Custom3 - Custom4"
     },
+    "FoundationSupportCommander": {
+      "unit_types": "Commander & Custom2 - Custom1 - Custom3 - Custom4"
+    },
     "AnyFoundationAirFactory": {
       "unit_types": "(Factory & Air) & Custom2 - Custom1 - Custom3 - Custom4"
     },
