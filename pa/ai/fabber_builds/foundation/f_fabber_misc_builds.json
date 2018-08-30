@@ -49,7 +49,7 @@
     },
     {
       "name": "Foundation - Teleporter - Need Land",
-      "to_build": "Teleporter",
+      "to_build": "F_Utility_Teleporter",
       "instance_count": 1,
       "shared_instance_count": "Teleporter",
       "priority": 615,
@@ -152,7 +152,7 @@
     },
     {
       "name": "Foundation - Teleporter - Need Fabber",
-      "to_build": "Teleporter",
+      "to_build": "F_Utility_Teleporter",
       "instance_count": 1,
       "shared_instance_count": "Teleporter",
       "priority": 615,
@@ -198,7 +198,7 @@
     },
     {
       "name": "Foundation - Teleporter - Other Planet Needs Fabber",
-      "to_build": "Teleporter",
+      "to_build": "F_Utility_Teleporter",
       "instance_count": 1,
       "shared_instance_count": "Teleporter",
       "priority": 606,
@@ -252,7 +252,7 @@
     },
     {
       "name": "Foundation - Teleporter",
-      "to_build": "Teleporter",
+      "to_build": "F_Utility_Teleporter",
       "instance_count": 1,
       "shared_instance_count": "Teleporter",
       "priority": 258,
@@ -298,7 +298,7 @@
     },
     {
       "name": "Foundation - Teleporter - Not Alone",
-      "to_build": "Teleporter",
+      "to_build": "F_Utility_Teleporter",
       "instance_count": 1,
       "shared_instance_count": "Teleporter",
       "priority": 380,
