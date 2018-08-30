@@ -162,8 +162,8 @@
     "F_Titan_Air": {
       "spec_id": "/pa/units/titan/titan_air_f.json"
     },
-    "F_Titan_titan_bot_f": {
-      "spec_id": "/pa/units/titan/Bot.json"
+    "F_Titan_Bot": {
+      "spec_id": "/pa/units/titan/titan_bot_f.json"
     },
     "F_Turret_Adv_AA": {
       "spec_id": "/pa/units/turret/air_defense_adv_f.json"
