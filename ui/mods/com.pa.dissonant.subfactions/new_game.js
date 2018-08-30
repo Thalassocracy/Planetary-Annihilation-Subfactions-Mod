@@ -5,6 +5,7 @@ model.localChatMessage(loc("!LOC:Subfaction Mod"), loc("!LOC:currently a work in
 * This code is taken from Legion Expansion
 * It might need duplicating in a client mod or else can break if the player accesses the system menu before the lobby UI finishes loading
 * I've not idea what patched lobby.js is and I don't think the Legion Expansion has one either
+* Stops the Legion CSS from being properly applied to Legion army rows - cosmetic, but you should probably fix that
 *
 */
 
