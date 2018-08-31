@@ -46,19 +46,19 @@
       "spec_id": "/pa/units/foundation/air/transport_f.json"
     },
     "F_Air_Adv_Bomber": {
-      "spec_id": "/pa/units/foundation/air/T2/bomber_adv_f.json"
+      "spec_id": "/pa/units/foundation/air/t2/bomber_adv_f.json"
     },
     "F_Air_Adv_Fabber": {
-      "spec_id": "/pa/units/foundation/air/T2/fabrication_aircraft_adv_f.json"
+      "spec_id": "/pa/units/foundation/air/t2/fabrication_aircraft_adv_f.json"
     },
     "F_Air_Adv_Fighter": {
-      "spec_id": "/pa/units/foundation/air/T2/fighter_adv_f.json"
+      "spec_id": "/pa/units/foundation/air/t2/fighter_adv_f.json"
     },
     "F_Air_Adv_Gunship": {
-      "spec_id": "/pa/units/foundation/air/T2/gunship_f.json"
+      "spec_id": "/pa/units/foundation/air/t2/gunship_f.json"
     },
     "F_Air_Adv_SupportPlatform": {
-      "spec_id": "/pa/units/foundation/air/T2/support_platform_f.json"
+      "spec_id": "/pa/units/foundation/air/t2/support_platform_f.json"
     },
     "F_Bot_Assault": {
       "spec_id": "/pa/units/foundation/bot/assault_bot_f.json"
