@@ -26,11 +26,6 @@
             "boolean": false
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "NeedBasicAirFactory",
             "boolean": false
           },
@@ -54,11 +49,6 @@
             "boolean": true
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "NeedBasicAirFactory",
             "boolean": true
           },
@@ -80,11 +70,6 @@
           {
             "test_type": "HaveEcoForAdvanced",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "NeedAdvancedAirFactory",
@@ -116,11 +101,6 @@
             "boolean": true
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "NeedBasicAirFactory",
             "boolean": true
           },
@@ -144,11 +124,6 @@
           {
             "test_type": "AloneOnPlanet",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "UnitCountOnPlanet",
@@ -207,11 +182,6 @@
             "boolean": true
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "CurrentMetalEfficiency",
             "compare0": ">",
             "value0": 1
@@ -248,11 +218,6 @@
           {
             "test_type": "HaveEcoForAdvanced",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "CurrentMetalEfficiency",

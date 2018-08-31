@@ -96,11 +96,6 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "CanAffordPotentialDrain",
             "string0": "F_Turret_Adv_Nuke"
           },
@@ -151,11 +146,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "CanAffordPotentialDrain",
@@ -221,11 +211,6 @@
             "value0": 3
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -279,11 +264,6 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
-          },
-          {
             "test_type": "CanAffordPotentialDrain",
             "string0": "F_Factory_UnitCannon"
           },
@@ -334,11 +314,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "CanAffordPotentialDrain",
@@ -396,11 +371,6 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "UnitCountInBase",
@@ -469,11 +439,6 @@
           {
             "test_type": "PlanetHasUseablePlanetWeapon",
             "boolean": true
-          },
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Tutorial",
-            "boolean": false
           },
           {
             "test_type": "EnemyPresenceOnPlanet",
