@@ -1078,7 +1078,7 @@
       "name": "Foundation - Wall",
       "to_build": "F_Utility_Wall",
       "instance_count": 1,
-      "priority": 85,
+      "priority": 0,
       "base_sort": "FromPerimeter",
       "builders": [
         "AnyFoundationBasicFabber",
