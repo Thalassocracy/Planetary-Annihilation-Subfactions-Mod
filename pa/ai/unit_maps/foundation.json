@@ -138,7 +138,7 @@
     "F_Naval_Scout": {
       "spec_id": "/pa/units/foundation/naval/sea_scout_f.json"
     },
-    "F_Naval_Sub": {
+    "F_Naval_Hover": {
       "spec_id": "/pa/units/foundation/naval/sub_hunter_f.json"
     },
     "F_Naval_Adv_Battleship": {
