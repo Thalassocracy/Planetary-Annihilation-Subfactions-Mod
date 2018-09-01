@@ -3,5 +3,5 @@
 		"spec_id": "/pa/units/foundation/factory/orbital_launcher_build_arm.json",
 		"aim_bone": "bone_root"
 	}],
-"buildable_types":"Orbital & FactoryBuild & Basic & Custom2 - Custom1 - Custom3 - Custom4 - Custom5",
+"buildable_types":"Orbital & FactoryBuild & Basic & Custom2 - Custom1 - Custom3 - Custom4",
 "unit_types":["UNITTYPE_Orbital","UNITTYPE_Factory","UNITTYPE_Construction","UNITTYPE_Structure","UNITTYPE_Land","UNITTYPE_FabBuild","UNITTYPE_FabAdvBuild","UNITTYPE_Basic","UNITTYPE_Important","UNITTYPE_Custom2"]}
