@@ -1,0 +1,6 @@
+{
+	"base_spec": "/pa/units/orbital/orbital_battleship/orbital_battleship.json",
+	"display_name": "!LOC:foundation Omega",
+	"unit_types": ["UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Orbital", "UNITTYPE_Fighter", "UNITTYPE_Heavy", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
+"si_name": "orbital_battleship_f"
+}

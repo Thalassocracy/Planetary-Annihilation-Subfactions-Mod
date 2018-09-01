@@ -95,6 +95,26 @@
         "/pa/units/foundation/naval/destroyer_f.json",
         "/pa/units/foundation/naval/sub_hunter_f.json",
         "/pa/units/foundation/naval/sea_scout_f.json",
-        "/pa/units/foundation/naval/fabrication_barge_f.json"
+        "/pa/units/foundation/naval/fabrication_barge_f.json",
+		
+		"/pa/units/foundation/titantitan_orbital.json",
+        "/pa/units/foundation/orbital_structure/defense_satellite.json",
+        "/pa/units/foundation/orbital_structure/mining_platform.json",
+        "/pa/units/foundation/orbital_structure/orbital_factory.json",
+
+
+        "/pa/units/foundation/orbital/orbital_battleship.json",
+
+        "/pa/units/foundation/orbital/heal_drone.json",
+        "/pa/units/foundation/orbital/orbital_laser.json",
+        "/pa/units/foundation/orbital/radar_satellite_adv.json",
+        "/pa/units/foundation/orbital/orbital_railgun.json",
+
+
+        "/pa/units/foundation/orbital/orbital_fabrication_bot.json",
+        "/pa/units/foundation/orbital/orbital_fighter.json",
+        "/pa/units/foundation/orbital/radar_satellite.json",
+        "/pa/units/foundation/orbital/orbital_lander.json",
+        "/pa/units/foundation/orbital/orbital_probe.json"
 
 ]}

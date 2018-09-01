@@ -1,0 +1,3 @@
+{"base_spec":"/pa/units/orbital/defense_satellite/defense_satellite.json","display_name":"!LOC:Foundation Anchor",
+"unit_types":["UNITTYPE_Structure","UNITTYPE_Orbital","UNITTYPE_Defense","UNITTYPE_OrbitalDefense","UNITTYPE_Advanced","UNITTYPE_FabOrbBuild","UNITTYPE_Custom2"],
+"si_name":"defense_satellite_f"}

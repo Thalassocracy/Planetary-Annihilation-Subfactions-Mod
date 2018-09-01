@@ -1,0 +1,4 @@
+{"base_spec":"/pa/units/orbital/mining_platform/mining_platform.json","display_name":"Foundation Jig"
+
+,"unit_types":["UNITTYPE_Orbital","UNITTYPE_FabOrbBuild","UNITTYPE_EnergyProduction","UNITTYPE_MetalProduction","UNITTYPE_Structure","UNITTYPE_Economy", "UNITTYPE_Custom2"],
+"si_name":"mining_platform_f"}
