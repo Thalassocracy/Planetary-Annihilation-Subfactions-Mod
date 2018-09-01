@@ -48,6 +48,9 @@
     "F_Air_Adv_Bomber": {
       "spec_id": "/pa/units/foundation/air/t2/bomber_adv_f.json"
     },
+    "F_Air_Adv_BomberHeavy": {
+      "spec_id": "/pa/units/foundation/air/t2/bomber_heavy_f.json"
+    },
     "F_Air_Adv_Fabber": {
       "spec_id": "/pa/units/foundation/air/t2/fabrication_aircraft_adv_f.json"
     },
