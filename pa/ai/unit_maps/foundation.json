@@ -1,0 +1,274 @@
+{
+  "unit_map": {
+    "FoundationCommander": {
+      "unit_types": "Commander & Custom2 - Custom1 - Custom3 - Custom4"
+    },
+    "FoundationSupportCommander": {
+      "unit_types": "SupportCommander & Custom2"
+    },
+    "F_Orbital_Fabber": {
+      "unit_types": "Orbital & Fabber & Custom2"
+    },
+    "AnyFoundationAirFactory": {
+      "unit_types": "(Factory & Air) & Custom2 - Custom1 - Custom3 - Custom4"
+    },
+    "AnyFoundationBotFactory": {
+      "unit_types": "(Factory & Bot) & Custom2 - Custom1 - Custom3 - Custom4"
+    },
+    "AnyFoundationOrbitalFactory": {
+      "unit_types": "(Factory & Orbital) & Custom2 - Custom1 - Custom3 - Custom4"
+    },
+    "AnyFoundationNavalFactory": {
+      "unit_types": "(Factory & Naval) & Custom2 - Custom1 - Custom3 - Custom4"
+    },
+    "AnyFoundationVehicleFactory": {
+      "unit_types": "(Factory & Tank) & Custom2 - Custom1 - Custom3 - Custom4"
+    },
+    "AnyFoundationBasicFabber": {
+      "unit_types": "((Fabber & (Basic | Debug)) - Orbital) & Custom2 - Custom1 - Custom3 - Custom4"
+    },
+    "AnyFoundationAdvancedFabber": {
+      "unit_types": "((Fabber & (Advanced | Debug)) - Orbital) & Custom2 - Custom1 - Custom3 - Custom4"
+    },
+    "F_Air_Scout": {
+      "spec_id": "/pa/units/foundation/air/air_scout_f.json"
+    },
+    "F_Air_Bomber": {
+      "spec_id": "/pa/units/foundation/air/bomber_f.json"
+    },
+    "F_Air_Fabber": {
+      "spec_id": "/pa/units/foundation/air/fabrication_aircraft_f.json"
+    },
+    "F_Air_Fighter": {
+      "spec_id": "/pa/units/foundation/air/fighter_f.json"
+    },
+    "F_Air_Transport": {
+      "spec_id": "/pa/units/foundation/air/transport_f.json"
+    },
+    "F_Air_Adv_Bomber": {
+      "spec_id": "/pa/units/foundation/air/t2/bomber_adv_f.json"
+    },
+    "F_Air_Adv_Fabber": {
+      "spec_id": "/pa/units/foundation/air/t2/fabrication_aircraft_adv_f.json"
+    },
+    "F_Air_Adv_Fighter": {
+      "spec_id": "/pa/units/foundation/air/t2/fighter_adv_f.json"
+    },
+    "F_Air_Adv_Gunship": {
+      "spec_id": "/pa/units/foundation/air/t2/gunship_f.json"
+    },
+    "F_Air_Adv_SupportPlatform": {
+      "spec_id": "/pa/units/foundation/air/t2/support_platform_f.json"
+    },
+    "F_Bot_Assault": {
+      "spec_id": "/pa/units/foundation/bot/assault_bot_f.json"
+    },
+    "F_Bot_Bomb": {
+      "spec_id": "/pa/units/foundation/bot/bot_bomb_f.json"
+    },
+    "F_Bot_Artillery": {
+      "spec_id": "/pa/units/foundation/bot/bot_grenadier_f.json"
+    },
+    "F_Bot_Tesla": {
+      "spec_id": "/pa/units/foundation/bot/bot_tesla_f.json"
+    },
+    "F_Bot_CombatFabber": {
+      "spec_id": "/pa/units/foundation/bot/fabrication_bot_combat_f.json"
+    },
+    "F_Bot_Fabber": {
+      "spec_id": "/pa/units/foundation/bot/fabrication_bot_f.json"
+    },
+    "F_Bot_Adv_Assault": {
+      "spec_id": "/pa/units/foundation/bot/t2/assault_bot_adv_f.json"
+    },
+    "F_Bot_Adv_Artillery": {
+      "spec_id": "/pa/units/foundation/bot/t2/bot_sniper_f.json"
+    },
+    "F_Bot_Adv_Tactical": {
+      "spec_id": "/pa/units/foundation/bot/t2/bot_tactical_missile_f.json"
+    },
+    "F_Bot_Adv_Fabber": {
+      "spec_id": "/pa/units/foundation/bot/t2/fabrication_bot_adv_f.json"
+    },
+    "F_Bot_Adv_CombatFabber": {
+      "spec_id": "/pa/units/foundation/bot/t2/fabrication_bot_combat_adv_f.json"
+    },
+    "F_Factory_Adv_Air": {
+      "spec_id": "/pa/units/foundation/factory/air_factory_adv_f.json"
+    },
+    "F_Factory_Air": {
+      "spec_id": "/pa/units/foundation/factory/air_factory_f.json"
+    },
+    "F_Factory_Adv_Bot": {
+      "spec_id": "/pa/units/foundation/factory/bot_factory_adv_f.json"
+    },
+    "F_Factory_Bot": {
+      "spec_id": "/pa/units/foundation/factory/bot_factory_f.json"
+    },
+    "F_Factory_Adv_Naval": {
+      "spec_id": "/pa/units/foundation/factory/naval_factory_adv_f.json"
+    },
+    "F_Factory_Naval": {
+      "spec_id": "/pa/units/foundation/factory/naval_factory_f.json"
+    },
+    "F_Factory_Orbital": {
+      "spec_id": "/pa/units/foundation/factory/orbital_launcher_f.json"
+    },
+    "F_Factory_UnitCannon": {
+      "spec_id": "/pa/units/foundation/factory/unit_cannon_f.json"
+    },
+    "F_Factory_Adv_Vehicle": {
+      "spec_id": "/pa/units/foundation/factory/vehicle_factory_adv_f.json"
+    },
+    "F_Factory_Vehicle": {
+      "spec_id": "/pa/units/foundation/factory/vehicle_factory_f.json"
+    },
+    "F_Naval_Destroyer": {
+      "spec_id": "/pa/units/foundation/naval/destroyer_f.json"
+    },
+    "F_Naval_CombatFabber": {
+      "spec_id": "/pa/units/foundation/naval/fabrication_barge_f.json"
+    },
+    "F_Naval_Fabber": {
+      "spec_id": "/pa/units/foundation/naval/fabrication_ship_f.json"
+    },
+    "F_Naval_Frigate": {
+      "spec_id": "/pa/units/foundation/naval/frigate_f.json"
+    },
+    "F_Naval_Scout": {
+      "spec_id": "/pa/units/foundation/naval/sea_scout_f.json"
+    },
+    "F_Naval_Hover": {
+      "spec_id": "/pa/units/foundation/naval/sub_hunter_f.json"
+    },
+    "F_Naval_Adv_Battleship": {
+      "spec_id": "/pa/units/foundation/naval/t2/battleship_f.json"
+    },
+    "F_Naval_Adv_AA": {
+      "spec_id": "/pa/units/foundation/naval/t2/borealis_f.json"
+    },
+    "F_Naval_Adv_Carrier": {
+      "spec_id": "/pa/units/foundation/naval/t2/carrier_f.json"
+    },
+    "F_Naval_Adv_Fabber": {
+      "spec_id": "/pa/units/foundation/naval/t2/fabrication_ship_adv_f.json"
+    },
+    "F_Naval_Adv_Hover": {
+      "spec_id": "/pa/units/foundation/naval/t2/hover_ship_f.json"
+    },
+    "F_Naval_Adv_Sub": {
+      "spec_id": "/pa/units/foundation/naval/t2/nuclear_sub_f.json"
+    },
+    "F_Titan_Air": {
+      "spec_id": "/pa/units/foundation/titan/titan_air_f.json"
+    },
+    "F_Titan_Bot": {
+      "spec_id": "/pa/units/foundation/titan/titan_bot_f.json"
+    },
+    "F_Turret_Adv_AA": {
+      "spec_id": "/pa/units/foundation/turret/air_defense_adv_f.json"
+    },
+    "F_Turret_AA": {
+      "spec_id": "/pa/units/foundation/turret/air_defense_f.json"
+    },
+    "F_Turret_Adv_AntiNuke": {
+      "spec_id": "/pa/units/foundation/turret/anti_nuke_launcher_f.json"
+    },
+    "F_Turret_Adv_Artillery": {
+      "spec_id": "/pa/units/foundation/turret/artillery_long_f.json"
+    },
+    "F_Turret_Artillery": {
+      "spec_id": "/pa/units/foundation/turret/artillery_short_f.json"
+    },
+    "F_Turret_AO": {
+      "spec_id": "/pa/units/foundation/turret/ion_defense_f.json"
+    },
+    "F_Turret_Adv_Laser": {
+      "spec_id": "/pa/units/foundation/turret/laser_defense_adv_f.json"
+    },
+    "F_Turret_Laser": {
+      "spec_id": "/pa/units/foundation/turret/laser_defense_f.json"
+    },
+    "F_Turret_LaserSingle": {
+      "spec_id": "/pa/units/foundation/turret/laser_defense_single_f.json"
+    },
+    "F_Turret_Adv_Nuke": {
+      "spec_id": "/pa/units/foundation/turret/nuke_launcher_f.json"
+    },
+    "F_Turret_Adv_Tactical": {
+      "spec_id": "/pa/units/foundation/turret/tactical_missile_launcher_f.json"
+    },
+    "F_Turret_Adv_Torpedo": {
+      "spec_id": "/pa/units/foundation/turret/torpedo_launcher_adv_f.json"
+    },
+    "F_Turret_Torpedo": {
+      "spec_id": "/pa/units/foundation/turret/torpedo_launcher_f.json"
+    },
+    "F_Utility_ControlModule": {
+      "spec_id": "/pa/units/foundation/utility/control_module.json"
+    },
+    "F_Utility_Engine": {
+      "spec_id": "/pa/units/foundation/utility/delta_v_engine.json"
+    },
+    "F_Utility_Energy2": {
+      "spec_id": "/pa/units/foundation/utility/energy_plant_2_f.json"
+    },
+    "F_Utility_Energy": {
+      "spec_id": "/pa/units/foundation/utility/energy_plant.json"
+    },
+    "F_Utility_StorageEnergy": {
+      "spec_id": "/pa/units/foundation/utility/energy_storage.json"
+    },
+    "F_Utility_Wall": {
+      "spec_id": "/pa/units/foundation/utility/land_barrier.json"
+    },
+    "F_Utility_Adv_MetalExtractor": {
+      "spec_id": "/pa/units/foundation/utility/metal_extractor_adv.json"
+    },
+    "F_Utility_MetalExtractor": {
+      "spec_id": "/pa/units/foundation/utility/metal_extractor.json"
+    },
+    "F_Utility_StorageMetal": {
+      "spec_id": "/pa/units/foundation/utility/metal_storage.json"
+    },
+    "F_Utility_Adv_Radar": {
+      "spec_id": "/pa/units/foundation/utility/radar_adv.json"
+    },
+    "F_Utility_Radar": {
+      "spec_id": "/pa/units/foundation/utility/radar.json"
+    },
+    "F_Utility_Teleporter": {
+      "spec_id": "/pa/units/foundation/utility/teleporter.json"
+    },
+    "F_Tank_AA": {
+      "spec_id": "/pa/units/foundation/vehicle/aa_missile_vehicle_f.json"
+    },
+    "F_Tank_Fabber": {
+      "spec_id": "/pa/units/foundation/vehicle/fabrication_vehicle_f.json"
+    },
+    "F_Tank_Scout": {
+      "spec_id": "/pa/units/foundation/vehicle/land_scout_f.json"
+    },
+    "F_Tank_Armor": {
+      "spec_id": "/pa/units/foundation/vehicle/tank_armor_f.json"
+    },
+    "F_Tank_Laser": {
+      "spec_id": "/pa/units/foundation/vehicle/tank_light_laser_f.json"
+    },
+    "F_Tank_Adv_Fabber": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/fabrication_vehicle_adv_f.json"
+    },
+    "F_Tank_Adv_AA": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/fabrication_vehicle_adv_f.json"
+    },
+    "F_Tank_Adv_Armor": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/tank_heavy_armor_f.json"
+    },
+    "F_Tank_Adv_Artillery": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/tank_heavy_mortar_f.json"
+    },
+    "F_Tank_Adv_Laser": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/tank_laser_adv_f.json"
+    }
+  }
+}

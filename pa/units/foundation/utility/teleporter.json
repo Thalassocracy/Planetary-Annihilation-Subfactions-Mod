@@ -5,6 +5,7 @@
 	"description": "!LOC:100% more expensive, 50% more health; Does not consume or require energy. Teleports units from one to another.",
 	"max_health": 14625,
 	"build_metal_cost": 1600,
+        "energy_efficiency_requirement": 0.0,
 	"unit_types": ["UNITTYPE_Structure", "UNITTYPE_Teleporter", "UNITTYPE_CmdBuild", "UNITTYPE_FabBuild", "UNITTYPE_FabAdvBuild", "UNITTYPE_CombatFabAdvBuild", "UNITTYPE_CombatFabBuild", "UNITTYPE_FabOrbBuild", "UNITTYPE_Custom2"],
 	"teleporter": {
 		"energy_demand": 0
