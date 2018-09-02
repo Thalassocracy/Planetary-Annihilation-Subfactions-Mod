@@ -245,6 +245,7 @@ $(document).ready(function () {
             'drone_f',
             'artillery_unit_launcher_f',
             'titan_structure_f',
+			'heal_drone_f',
         ]);
 
         self.sendIconList = function () {

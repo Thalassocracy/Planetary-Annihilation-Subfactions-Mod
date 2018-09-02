@@ -1,3 +1,9 @@
 {"base_spec":"/pa/units/land/bot_bomb/bot_bomb.json","display_name":"!LOC:Foundation Martyr","description":"!LOC:25% slower. Hovers over water and lava (modified Boom); Bomb bot - Self-Destructs to deal very heavy damage over an area.","unit_types":["UNITTYPE_Bot","UNITTYPE_Mobile","UNITTYPE_Land","UNITTYPE_Basic","UNITTYPE_FactoryBuild","UNITTYPE_CannonBuildable","UNITTYPE_Offense","UNITTYPE_SelfDestruct", "UNITTYPE_Custom2", "UNITTYPE_Hover"],
 	"armor_type": "AT_Hover",
-"navigation":{"type":"hover","acceleration":400,"brake":-1,"move_speed":30,"turn_speed":720}}
+"navigation":{"type":"hover","acceleration":400,"brake":-1,"move_speed":40,"turn_speed":720},
+	"tools": [{
+		"spec_id": "/pa/units/foundation/bot/bot_bomb_tool_weapon.json",
+		"aim_bone": "bone_root",
+		"muzzle_bone": "bone_root"
+	}]
+}

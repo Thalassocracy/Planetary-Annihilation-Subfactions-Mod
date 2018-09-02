@@ -1,0 +1,4 @@
+{"base_spec":"/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json","display_name":"!LOC:Foundation Advanced Radar Satellite",
+
+"unit_types":["UNITTYPE_Mobile","UNITTYPE_Orbital","UNITTYPE_Advanced","UNITTYPE_Recon","UNITTYPE_FactoryBuild","UNITTYPE_Custom2"],
+"si_name":"radar_satellite_adv_f"}

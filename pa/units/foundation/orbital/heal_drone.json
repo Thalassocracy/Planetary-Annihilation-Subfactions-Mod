@@ -1,0 +1,16 @@
+{"base_spec":"/pa/units/orbital/solar_array/solar_array.json","display_name":"!LOC:Foundation Prelate","description":"!LOC:Repair drone- Does not use energy.","max_health":500,
+
+"unit_types":["UNITTYPE_Mobile","UNITTYPE_Orbital","UNITTYPE_Advanced","UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],"command_caps":["ORDER_Move","ORDER_Patrol","ORDER_Assist", "ORDER_Repair"],"navigation":{"type":"orbital","acceleration":40,"brake":40,"move_speed":40,"turn_speed":45,"hover_time":-1.0},
+"si_name":"heal_drone_f",
+
+	"tools": [
+	{	"spec_id": "/pa/units/foundation/orbital/heal_drone_tool.json",
+		"aim_bone": "bone_turret"}
+		],
+	"fx_offsets": [{
+		"type": "build",
+		"filename": "/pa/effects/specs/fab_spray.pfx",
+		"bone": "bone_turret",
+		"orientation": [0, 0, 0]
+	}],
+"production":{"energy":4000}}

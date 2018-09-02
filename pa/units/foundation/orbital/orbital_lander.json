@@ -1,0 +1,4 @@
+{"base_spec":"/pa/units/orbital/orbital_lander/orbital_lander.json","display_name":"!LOC:Foundation Astraeus",
+
+"unit_types":["UNITTYPE_Orbital","UNITTYPE_Mobile","UNITTYPE_Transport","UNITTYPE_Basic","UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
+"si_name":"orbital_lander_f"}

@@ -36,7 +36,7 @@ Spark:
 0.71x movement speed (14 -> 10)
 
 Martyr (replaces Boombot):
-0.75x movement speed (40 -> 30)
+0.83x damage (600 -> 500)
 Hover
 
 Priest (replaces Stitch):
@@ -159,6 +159,17 @@ Requires 2000 energy per second to maintain weapons.
 
 Stingray:
 removed
+
+
+___
+ORBITAL:
+Prelate (replaces Solar Array):
+0.5x health (1000 -> 500)
+4.0x move speed, acceleration, brake (10 -> 40)
+No energy generation
+Repairs units within 250 range for 400 metal per second
+Does not use energy
+
 ___
 TITANS:
 
@@ -197,5 +208,4 @@ Has 4 healing beams, which each repair units within 300 range for 100 metal per 
 Has massive vision radius (1000)
 Leaves no reclaim
 
-*Orbital not implemented at the moment. Will probably replace orbital energy generator with orbital healing drone.
 
