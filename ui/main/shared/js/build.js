@@ -272,9 +272,27 @@ var Build = (function() {
         "/pa/units/foundation/naval/destroyer_f.json": ["seaf", 14],
         "/pa/units/foundation/naval/sub_hunter_f.json": ["seaf", 15],
         "/pa/units/foundation/naval/sea_scout_f.json": ["seaf", 16],
-        "/pa/units/foundation/naval/fabrication_barge_f.json": ["seaf",17]
+        "/pa/units/foundation/naval/fabrication_barge_f.json": ["seaf",17],
 
-		
+		"/pa/units/foundation/titan/titan_orbital.json": ["orbital_structuref", 6],
+        "/pa/units/foundation/orbital_structure/defense_satellite.json": ["orbital_structuref", 12],
+        "/pa/units/foundation/orbital_structure/mining_platform.json": ["orbital_structuref", 13],
+        "/pa/units/foundation/orbital_structure/orbital_factory.json": ["orbital_structuref", 14],
+
+
+        "/pa/units/foundation/orbital/orbital_battleship.json": ["orbitalf", 0],
+
+        "/pa/units/foundation/orbital/heal_drone.json": ["orbitalf", 6],
+        "/pa/units/foundation/orbital/orbital_laser.json": ["orbitalf", 7],
+        "/pa/units/foundation/orbital/radar_satellite_adv.json": ["orbitalf", 8],
+        "/pa/units/foundation/orbital/orbital_railgun.json": ["orbitalf", 9],
+
+
+        "/pa/units/foundation/orbital/orbital_fabrication_bot.json": ["orbitalf", 12],
+        "/pa/units/foundation/orbital/orbital_fighter.json": ["orbitalf", 13],
+        "/pa/units/foundation/orbital/radar_satellite.json": ["orbitalf", 14],
+        "/pa/units/foundation/orbital/orbital_lander.json": ["orbitalf", 15],
+        "/pa/units/foundation/orbital/orbital_probe.json": ["orbitalf", 16]
 		
     };
 
