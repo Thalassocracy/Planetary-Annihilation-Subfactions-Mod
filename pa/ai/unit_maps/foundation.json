@@ -6,9 +6,6 @@
     "FoundationSupportCommander": {
       "unit_types": "SupportCommander & Custom2"
     },
-    "F_Orbital_Fabber": {
-      "unit_types": "Orbital & Fabber & Custom2"
-    },
     "AnyFoundationAirFactory": {
       "unit_types": "(Factory & Air) & Custom2 - Custom1 - Custom3 - Custom4"
     },
@@ -114,6 +111,9 @@
     "F_Factory_Naval": {
       "spec_id": "/pa/units/foundation/factory/naval_factory_f.json"
     },
+    "F_Factory_Adv_Orbital": {
+      "spec_id": "/pa/units/foundation/factory/orbital_factory.json"
+    },
     "F_Factory_Orbital": {
       "spec_id": "/pa/units/foundation/factory/orbital_launcher_f.json"
     },
@@ -161,6 +161,36 @@
     },
     "F_Naval_Adv_Sub": {
       "spec_id": "/pa/units/foundation/naval/t2/nuclear_sub_f.json"
+    },
+    "F_Orbital_Adv_Energy": {
+      "spec_id": "/pa/units/foundation/orbital/heal_drone.json"
+    },
+    "F_Orbital_Adv_Battleship": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_battleship.json"
+    },
+    "F_Orbital_Fabber": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_fabrication_bot.json"
+    },
+    "F_Orbital_Fighter": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_fighter.json"
+    },
+    "F_Orbital_Transport": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_lander.json"
+    },
+    "F_Orbital_Adv_Artillery": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_laser.json"
+    },
+    "F_Orbital_Scout": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_probe.json"
+    },
+    "F_Orbital_Adv_Laser": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_railgun.json"
+    },
+    "F_Orbital_Adv_Radar": {
+      "spec_id": "/pa/units/foundation/orbital/radar_satellite_adv.json"
+    },
+    "F_Orbital_Radar": {
+      "spec_id": "/pa/units/foundation/orbital/radar_satellite.json"
     },
     "F_Tank_AA": {
       "spec_id": "/pa/units/foundation/vehicle/aa_missile_vehicle_f.json"
@@ -237,6 +267,9 @@
     "F_Turret_Torpedo": {
       "spec_id": "/pa/units/foundation/turret/torpedo_launcher_f.json"
     },
+    "F_Turret_Orbital": {
+      "spec_id": "/pa/units/foundation/orbital_structure/defense_satellite.json"
+    },
     "F_Utility_ControlModule": {
       "spec_id": "/pa/units/foundation/utility/control_module.json"
     },
@@ -272,6 +305,9 @@
     },
     "F_Utility_Teleporter": {
       "spec_id": "/pa/units/foundation/utility/teleporter.json"
+    },
+    "F_Utility_Orbital": {
+      "spec_id": "/pa/units/foundation/orbital_structure/mining_platform.json"
     }
   }
 }
