@@ -97,7 +97,7 @@
         "/pa/units/foundation/naval/sea_scout_f.json",
         "/pa/units/foundation/naval/fabrication_barge_f.json",
 		
-		"/pa/units/foundation/titantitan_orbital.json",
+		"/pa/units/foundation/titan/titan_orbital.json",
         "/pa/units/foundation/orbital_structure/defense_satellite.json",
         "/pa/units/foundation/orbital_structure/mining_platform.json",
         "/pa/units/foundation/orbital_structure/orbital_factory.json",

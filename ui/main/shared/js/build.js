@@ -274,7 +274,7 @@ var Build = (function() {
         "/pa/units/foundation/naval/sea_scout_f.json": ["seaf", 16],
         "/pa/units/foundation/naval/fabrication_barge_f.json": ["seaf",17],
 
-		"/pa/units/foundation/titantitan_orbital.json": ["orbital_structuref", 6],
+		"/pa/units/foundation/titan/titan_orbital.json": ["orbital_structuref", 6],
         "/pa/units/foundation/orbital_structure/defense_satellite.json": ["orbital_structuref", 12],
         "/pa/units/foundation/orbital_structure/mining_platform.json": ["orbital_structuref", 13],
         "/pa/units/foundation/orbital_structure/orbital_factory.json": ["orbital_structuref", 14],
