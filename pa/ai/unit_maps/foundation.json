@@ -258,6 +258,9 @@
     "F_Turret_Adv_Nuke": {
       "spec_id": "/pa/units/foundation/turret/nuke_launcher_f.json"
     },
+    "F_Turret_Orbital": {
+      "spec_id": "/pa/units/foundation/orbital_structure/defense_satellite.json"
+    },
     "F_Turret_Adv_Tactical": {
       "spec_id": "/pa/units/foundation/turret/tactical_missile_launcher_f.json"
     },
@@ -266,9 +269,6 @@
     },
     "F_Turret_Torpedo": {
       "spec_id": "/pa/units/foundation/turret/torpedo_launcher_f.json"
-    },
-    "F_Turret_Orbital": {
-      "spec_id": "/pa/units/foundation/orbital_structure/defense_satellite.json"
     },
     "F_Utility_ControlModule": {
       "spec_id": "/pa/units/foundation/utility/control_module.json"
@@ -294,6 +294,9 @@
     "F_Utility_MetalExtractor": {
       "spec_id": "/pa/units/foundation/utility/metal_extractor.json"
     },
+    "F_Utility_Orbital": {
+      "spec_id": "/pa/units/foundation/orbital_structure/mining_platform.json"
+    },
     "F_Utility_StorageMetal": {
       "spec_id": "/pa/units/foundation/utility/metal_storage.json"
     },
@@ -305,9 +308,6 @@
     },
     "F_Utility_Teleporter": {
       "spec_id": "/pa/units/foundation/utility/teleporter.json"
-    },
-    "F_Utility_Orbital": {
-      "spec_id": "/pa/units/foundation/orbital_structure/mining_platform.json"
     }
   }
 }
