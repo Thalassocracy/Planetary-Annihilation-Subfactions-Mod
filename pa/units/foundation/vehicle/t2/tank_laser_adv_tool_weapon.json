@@ -1,1 +1,26 @@
-{"base_spec":"/pa/tools/base_shell_turret/base_shell_turret.json","ammo_id":"/pa/units/foundation/vehicle/t2/tank_laser_adv_ammo.json","rate_of_fire":0.9,"idle_aim_delay":3,"max_range":120,"yaw_rate":25,"pitch_rate":360,"yaw_range":180,"pitch_range":40,"spread_fire":true,"auto_attack":true,"target_layers":["WL_LandHorizontal","WL_Seafloor","WL_WaterSurface"]}
+{
+	"base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
+	"ammo_id": "/pa/units/foundation/vehicle/t2/tank_laser_adv_ammo.json",
+	"rate_of_fire": 50,
+	"max_range": 110,
+	"yaw_rate": 25,
+	"pitch_rate": 360,
+	"yaw_range": 180,
+	"pitch_range": 40,
+	"firing_arc_yaw": 40,
+	"firing_arc_pitch": 180,
+	"auto_attack": true,
+	"spread_fire": true,
+	"target_layers": [
+    		"WL_LandHorizontal",
+   		 "WL_Seafloor",
+    		"WL_WaterSurface"
+ 	 ],
+	"ammo_source": "time",
+	"ammo_capacity": 2,
+	"ammo_demand": 1,
+	"ammo_per_shot": 0.4,
+	"carpet_fire": true,
+	"carpet_wait_for_full_ammo": true,
+	"firing_standard_deviation": 70
+}
