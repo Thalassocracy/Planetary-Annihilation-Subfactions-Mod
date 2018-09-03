@@ -6,9 +6,6 @@
     "FoundationSupportCommander": {
       "unit_types": "SupportCommander & Custom2"
     },
-    "F_Orbital_Fabber": {
-      "unit_types": "Orbital & Fabber & Custom2"
-    },
     "AnyFoundationAirFactory": {
       "unit_types": "(Factory & Air) & Custom2 - Custom1 - Custom3 - Custom4"
     },
@@ -47,6 +44,9 @@
     },
     "F_Air_Adv_Bomber": {
       "spec_id": "/pa/units/foundation/air/t2/bomber_adv_f.json"
+    },
+    "F_Air_Adv_BomberHeavy": {
+      "spec_id": "/pa/units/foundation/air/t2/bomber_heavy_f.json"
     },
     "F_Air_Adv_Fabber": {
       "spec_id": "/pa/units/foundation/air/t2/fabrication_aircraft_adv_f.json"
@@ -111,6 +111,9 @@
     "F_Factory_Naval": {
       "spec_id": "/pa/units/foundation/factory/naval_factory_f.json"
     },
+    "F_Factory_Adv_Orbital": {
+      "spec_id": "/pa/units/foundation/orbital_structure/orbital_factory.json"
+    },
     "F_Factory_Orbital": {
       "spec_id": "/pa/units/foundation/factory/orbital_launcher_f.json"
     },
@@ -159,6 +162,66 @@
     "F_Naval_Adv_Sub": {
       "spec_id": "/pa/units/foundation/naval/t2/nuclear_sub_f.json"
     },
+    "F_Orbital_Adv_Energy": {
+      "spec_id": "/pa/units/foundation/orbital/heal_drone.json"
+    },
+    "F_Orbital_Adv_Battleship": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_battleship.json"
+    },
+    "F_Orbital_Fabber": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_fabrication_bot.json"
+    },
+    "F_Orbital_Fighter": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_fighter.json"
+    },
+    "F_Orbital_Transport": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_lander.json"
+    },
+    "F_Orbital_Adv_Artillery": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_laser.json"
+    },
+    "F_Orbital_Scout": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_probe.json"
+    },
+    "F_Orbital_Adv_Laser": {
+      "spec_id": "/pa/units/foundation/orbital/orbital_railgun.json"
+    },
+    "F_Orbital_Adv_Radar": {
+      "spec_id": "/pa/units/foundation/orbital/radar_satellite_adv.json"
+    },
+    "F_Orbital_Radar": {
+      "spec_id": "/pa/units/foundation/orbital/radar_satellite.json"
+    },
+    "F_Tank_AA": {
+      "spec_id": "/pa/units/foundation/vehicle/aa_missile_vehicle_f.json"
+    },
+    "F_Tank_Fabber": {
+      "spec_id": "/pa/units/foundation/vehicle/fabrication_vehicle_f.json"
+    },
+    "F_Tank_Scout": {
+      "spec_id": "/pa/units/foundation/vehicle/land_scout_f.json"
+    },
+    "F_Tank_Armor": {
+      "spec_id": "/pa/units/foundation/vehicle/tank_armor_f.json"
+    },
+    "F_Tank_Laser": {
+      "spec_id": "/pa/units/foundation/vehicle/tank_light_laser_f.json"
+    },
+    "F_Tank_Adv_Fabber": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/fabrication_vehicle_adv_f.json"
+    },
+    "F_Tank_Adv_AA": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/fabrication_vehicle_adv_f.json"
+    },
+    "F_Tank_Adv_Armor": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/tank_heavy_armor_f.json"
+    },
+    "F_Tank_Adv_Artillery": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/tank_heavy_mortar_f.json"
+    },
+    "F_Tank_Adv_Laser": {
+      "spec_id": "/pa/units/foundation/vehicle/t2/tank_laser_adv_f.json"
+    },
     "F_Titan_Air": {
       "spec_id": "/pa/units/foundation/titan/titan_air_f.json"
     },
@@ -195,6 +258,9 @@
     "F_Turret_Adv_Nuke": {
       "spec_id": "/pa/units/foundation/turret/nuke_launcher_f.json"
     },
+    "F_Turret_Orbital": {
+      "spec_id": "/pa/units/foundation/orbital_structure/defense_satellite.json"
+    },
     "F_Turret_Adv_Tactical": {
       "spec_id": "/pa/units/foundation/turret/tactical_missile_launcher_f.json"
     },
@@ -228,6 +294,9 @@
     "F_Utility_MetalExtractor": {
       "spec_id": "/pa/units/foundation/utility/metal_extractor.json"
     },
+    "F_Utility_Orbital": {
+      "spec_id": "/pa/units/foundation/orbital_structure/mining_platform.json"
+    },
     "F_Utility_StorageMetal": {
       "spec_id": "/pa/units/foundation/utility/metal_storage.json"
     },
@@ -239,36 +308,6 @@
     },
     "F_Utility_Teleporter": {
       "spec_id": "/pa/units/foundation/utility/teleporter.json"
-    },
-    "F_Tank_AA": {
-      "spec_id": "/pa/units/foundation/vehicle/aa_missile_vehicle_f.json"
-    },
-    "F_Tank_Fabber": {
-      "spec_id": "/pa/units/foundation/vehicle/fabrication_vehicle_f.json"
-    },
-    "F_Tank_Scout": {
-      "spec_id": "/pa/units/foundation/vehicle/land_scout_f.json"
-    },
-    "F_Tank_Armor": {
-      "spec_id": "/pa/units/foundation/vehicle/tank_armor_f.json"
-    },
-    "F_Tank_Laser": {
-      "spec_id": "/pa/units/foundation/vehicle/tank_light_laser_f.json"
-    },
-    "F_Tank_Adv_Fabber": {
-      "spec_id": "/pa/units/foundation/vehicle/t2/fabrication_vehicle_adv_f.json"
-    },
-    "F_Tank_Adv_AA": {
-      "spec_id": "/pa/units/foundation/vehicle/t2/fabrication_vehicle_adv_f.json"
-    },
-    "F_Tank_Adv_Armor": {
-      "spec_id": "/pa/units/foundation/vehicle/t2/tank_heavy_armor_f.json"
-    },
-    "F_Tank_Adv_Artillery": {
-      "spec_id": "/pa/units/foundation/vehicle/t2/tank_heavy_mortar_f.json"
-    },
-    "F_Tank_Adv_Laser": {
-      "spec_id": "/pa/units/foundation/vehicle/t2/tank_laser_adv_f.json"
     }
   }
 }

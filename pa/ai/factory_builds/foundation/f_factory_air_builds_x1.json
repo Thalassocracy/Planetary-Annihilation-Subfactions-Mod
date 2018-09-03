@@ -1,6 +1,52 @@
 {
   "build_list": [
     {
+      "name": "Foundation - Advanced Air Bomber",
+      "to_build": "F_Air_Adv_BomberHeavy",
+      "instance_count": -1,
+      "max_num_assisters": 10,
+      "priority": 199,
+      "builders": [
+        "F_Factory_Adv_Air"
+      ],
+      "build_conditions": [
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "AloneOnPlanet",
+            "boolean": false
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ],
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "AloneOnPlanet",
+            "boolean": true
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "UnitCountPerPlanetRadius",
+            "unit_type_string0": "Bomber",
+            "compare0": "<",
+            "value0": 20
+          }
+        ]
+      ]
+    },
+    {
       "name": "Foundation - Support Platform",
       "to_build": "F_Air_Adv_SupportPlatform",
       "instance_count": 1,

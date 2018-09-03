@@ -1,6 +1,6 @@
-model.localChatMessage(loc("!LOC:Subfaction Mod"), loc("!LOC:currently a work in progress. To play as Foundation, select Nemicus (orbital and ragnarok missing). Some icons are missing."));
+model.localChatMessage(loc("!LOC:Subfaction Mod"), loc("!LOC:currently a work in progress. To play as Foundation, select Nemicus."));
 
-/* START - Button to set AI to Foundation
+/* START - Button to set AI to Foundation (from Quitch)
 * 
 * This code is taken from Legion Expansion
 * It might need duplicating in a client mod or else can break if the player accesses the system menu before the lobby UI finishes loading
