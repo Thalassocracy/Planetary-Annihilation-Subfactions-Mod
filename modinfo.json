@@ -1,6 +1,6 @@
  {
    "context": "server",
-   "identifier": "com.pa.dissonant.subfactions-test",
+   "identifier": "com.pa.dissonant.subfactions",
    "display_name": "Subfactions Test (Foundation Only)",
    "description": "Semi-stable beta. Adds subfactions to MLA. Not currently compatible with Legion. Only has one subfaction right now, Foundation.",
    "author": "Dissonant",
