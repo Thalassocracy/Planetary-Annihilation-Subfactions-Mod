@@ -175,10 +175,12 @@ var Build = (function() {
 
 		"/pa/units/foundation/titan/titan_air_f.json": ["factoryf", 1],
 		"/pa/units/foundation/titan/titan_bot_f.json": ["factoryf", 3],
+		"/pa/units/foundation/factory/unit_cannon_f.json": ["factoryf", 6],
 		"/pa/units/foundation/factory/naval_factory_adv_f.json": ["factoryf", 7],
         "/pa/units/foundation/factory/air_factory_adv_f.json": ["factoryf", 8],
         "/pa/units/foundation/factory/bot_factory_adv_f.json": ["factoryf", 9],
         "/pa/units/foundation/factory/vehicle_factory_adv_f.json": ["factoryf", 10],
+		"/pa/units/foundation/factory/orbital_launcher_f.json": ["factoryf", 12],
 		"/pa/units/foundation/factory/naval_factory_f.json": ["factoryf", 13],
 		"/pa/units/foundation/factory/air_factory_f.json": ["factoryf", 14],
 		"/pa/units/foundation/factory/bot_factory_f.json": ["factoryf", 15],

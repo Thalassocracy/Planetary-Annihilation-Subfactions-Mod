@@ -69,12 +69,15 @@ Crusader (replaces Inferno):
 1.2x speed (10 -> 12)
 2.0x acceleration (180 -> 360)
 
-Leveller:
+Zealot (replaces Leveller):
 1.1x health (1500 -> 1650)
-0.83x turret yaw rate (30 -> 25)
-0.9x attack rate (1 per second -> 0.9 per second)
-1.25x attack damage (300 -> 375)
-0.83x splash radius (3 -> 2.5)
+0.92x range (120 -> 110)
+0.5x rate of fire (1 -> 0.5)
+5.0xprojectiles per attack (2 -> 10)
+2.33x splash radius (3 -> 7)
+0.17x splash damage (300 -> 50)
+0.83x yaw rate (30 -> 25)
+∞x yaw firing arc (0? -> 40)
 
 Paladin (replaces Vanguard):
 Repairs units within 40 range for 80 metal per second
