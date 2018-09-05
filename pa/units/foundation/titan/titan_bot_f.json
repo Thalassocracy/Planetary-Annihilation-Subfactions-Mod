@@ -121,6 +121,27 @@
         "record_index": 1,
 		"fire_event": "fired1",
 		"muzzle_bone":"bone_root"
+	},
+		{	"spec_id": "/pa/units/foundation/titan/shield/shield_tool.json",
+		"show_range": true,
+		"aim_bone": "bone_root",
+        "record_index": 2,
+		"fire_event": "fired1",
+		"muzzle_bone":"bone_root"
+	},
+		{	"spec_id": "/pa/units/foundation/titan/shield/shield_tool.json",
+		"show_range": true,
+		"aim_bone": "bone_head",
+        "record_index": 3,
+		"fire_event": "fired1",
+		"muzzle_bone":"bone_root"
+	},
+		{	"spec_id": "/pa/units/foundation/titan/shield/shield_tool.json",
+		"show_range": true,
+		"aim_bone": "bone_root",
+        "record_index": 4,
+		"fire_event": "fired1",
+		"muzzle_bone":"bone_root"
 	}
 	],
 	"attack_range_frac": 1,
