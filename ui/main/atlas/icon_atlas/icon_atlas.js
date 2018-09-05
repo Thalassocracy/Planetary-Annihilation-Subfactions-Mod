@@ -29,9 +29,7 @@ $(document).ready(function () {
             'energy_plant',
             'radar_adv',
             'radar',
-            'energy_storage_adv',
             'energy_storage',
-            'metal_storage_adv',
             'metal_storage',
             'laser_defense_adv',
             'laser_defense',
@@ -148,7 +146,6 @@ $(document).ready(function () {
             'energy_plant_f',
             'radar_adv_f',
             'radar_f',
-            'energy_storage_adv_f',
             'energy_storage_f',
             'metal_storage_adv_f',
             'metal_storage_f',
@@ -245,7 +242,7 @@ $(document).ready(function () {
             'drone_f',
             'artillery_unit_launcher_f',
             'titan_structure_f',
-			'heal_drone_f'
+			'heal_drone_f',
         ]);
 
         self.sendIconList = function () {
