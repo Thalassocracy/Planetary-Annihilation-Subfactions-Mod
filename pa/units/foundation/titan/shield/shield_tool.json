@@ -11,11 +11,5 @@
   "rate_of_fire": 50,
   "spread_fire": true,
   "yaw_range": 360,
-  "yaw_rate": 3600,
-  "ammo_source": "time",
-  "ammo_capacity": 60,
-  "energy_efficiency_requirement": 0,
-  "ammo_demand": 1,
-  "ammo_per_shot": 0.01,
-  "start_fully_charged": true
+  "yaw_rate": 3600
 }

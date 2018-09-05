@@ -149,7 +149,12 @@
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/Titan_Complete"
-		},
+		},    
+	"died": {
+      "effect_spec": "",
+      "effect_scale": 1.0,
+      "audio_cue": ""
+    },
 		"fired1": {
 			"audio_cue": "/SE/Weapons/bot/sniper_fire_anti_tac",
 			"effect_spec": "/pa/units/foundation/titan/shield/shield_hit.pfx bone_void"
