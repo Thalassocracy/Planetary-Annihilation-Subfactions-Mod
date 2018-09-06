@@ -210,8 +210,4 @@ Rapture (replaces Halley):
 2x effectiveness (1 Rapture = 2 Halleys)
 *needs testing
 
-<<<<<<< HEAD
-
-
-=======
 
