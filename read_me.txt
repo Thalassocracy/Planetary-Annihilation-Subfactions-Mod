@@ -1,4 +1,4 @@
-FOUNDATION:
+﻿FOUNDATION:
 
 ____
 ECONOMY:
@@ -26,6 +26,13 @@ Same as energy plant, but built in a circular formation.
 
 Advanced Energy Plant:
 removed
+
+Font of Creation (new unit):
+Stationary fabber
+150 metal per second
+200 range
+Costs 2000 metal
+Does not use energy
 
 ___
 BOT:
@@ -202,13 +209,5 @@ Rapture (replaces Halley):
 1.5x metal cost (40000 -> 60000)
 2x effectiveness (1 Rapture = 2 Halleys)
 *needs testing
-
-Armageddon (replaces Ragnarok; not implemented yet):
-1.25x health (15000 -. 18750)
-2x chargeup length (~1 minute -> ~1 minutes)
-Generates 300 metal per second
-Has 4 healing beams, which each repair units within 300 range for 100 metal per second
-Has massive vision radius (1000)
-Leaves no reclaim
 
 
