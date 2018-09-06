@@ -1,0 +1,128 @@
+{
+	"base_spec": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.json",
+	"display_name": "!LOC:Foundation Font of Creation",
+	"description": "!LOC:Fabrication structure - assists fabricators. Does not use energy",
+	"unit_types": [
+    "UNITTYPE_Fabber",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+	"UNITTYPE_FabAdvBuild",
+	"UNITTYPE_Custom2"
+  ],
+	"recon": {
+		"observer": {
+			"items": [{
+				"layer": "surface_and_air",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 200
+			}, {
+				"layer": "underwater",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 200
+			}]
+		}
+	},
+	"max_health": 1050,
+	"build_metal_cost": 2000,
+	"buildable_types": "(Structure & Land & Advanced - Factory | FabAdvBuild | FabBuild) & Custom2",
+	"guard_layer": "WL_LandHorizontal",
+	"navigation": {
+		"type": "land-small",
+		"acceleration": 0,
+		"brake": 0,
+		"move_speed": 0,
+		"turn_speed": 360
+	},
+	"physics": {
+		"allow_pushing": false,
+		"shape": "Box",
+		"air_friction": 1.0,
+		"type": "Structure",
+		"radius": 7,
+		"collision_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+		"allow_underground": false,
+		"push_sideways": false
+	},
+  "tools": [
+    {
+      "aim_bone": "bone_antenna",
+      "spec_id": "/pa/units/foundation/utility/font_of_creation_build_arm.json"
+    }
+	],
+	"events": {
+		
+	},
+	"audio": {
+		"loops": {
+			"build": {
+				"cue": "/SE/Construction/Fab_contruction_beam_loop",
+				"flag": "build_target_changed",
+				"should_start_func": "has_build_target",
+				"should_stop_func": "no_build_target"
+			}
+		},
+		"selection_response": {
+			"cue": "/SE/Selection/veh/fab_T2"
+		}
+	},
+	"fx_offsets": [
+	 {
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "build",
+      "bone": "bone_antenna",
+      "offset": [
+        0,
+        -4.198,
+        0.381
+      ]
+    },
+	{
+		"type": "energy",
+		"filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_on.pfx",
+		"bone": "bone_antenna",
+		"offset": [14.0, 0.0, 0.0],
+		"orientation": [-90, 0, 0]
+	}, {
+		"type": "energy",
+		"filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_door_on.pfx",
+		"bone": "bone_door01"
+	}, {
+		"type": "energy",
+		"filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_door_on.pfx",
+		"bone": "bone_door02"
+	}, {
+		"type": "energy",
+		"filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_door_on.pfx",
+		"bone": "bone_door03"
+	}, {
+		"type": "energy",
+		"filename": "/pa/units/orbital/deep_space_radar/deep_space_radar_door_on.pfx",
+		"bone": "bone_door04"
+	}],
+	"selection_icon": {
+		"diameter": 400.0
+	},
+	"TEMP_texelinfo": 46.4947,
+	  "model": {
+    "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar.papa",
+    "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json"
+  },
+  "transportable": {
+    "size": 2
+  },
+  "armor_type": "AT_Structure",
+  "mesh_bounds": [
+    20,
+    20,
+    23.5
+  ]
+	}

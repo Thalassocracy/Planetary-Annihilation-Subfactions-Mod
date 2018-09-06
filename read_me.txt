@@ -27,6 +27,13 @@ Same as energy plant, but built in a circular formation.
 Advanced Energy Plant:
 removed
 
+Font of Creation (new unit):
+Stationary fabber
+150 metal per second
+200 range
+Costs 2000 metal
+Does not use energy
+
 ___
 BOT:
 Grenadier:
@@ -203,6 +210,8 @@ Rapture (replaces Halley):
 2x effectiveness (1 Rapture = 2 Halleys)
 *needs testing
 
+<<<<<<< HEAD
 
 
+=======
 

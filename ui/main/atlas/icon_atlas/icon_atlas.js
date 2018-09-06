@@ -243,6 +243,7 @@ $(document).ready(function () {
             'artillery_unit_launcher_f',
             'titan_structure_f',
 			'heal_drone_f',
+			'font_of_creation',
         ]);
 
         self.sendIconList = function () {
