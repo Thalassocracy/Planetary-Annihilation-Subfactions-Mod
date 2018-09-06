@@ -3,16 +3,17 @@
 	"damage": 120,
 	"splash_damage": 50,
 	"splash_radius": 7,
-	"fx_beam_spec": "/pa/units/orbital/defense_satellite/defense_satellite_ammo_ground_beam.pfx",
+	"fx_beam_spec": "/pa/units/foundation/vehicle/t2/tank_laser_adv_ammo_beam.pfx",
 	"lifetime": 6,
 	"initial_velocity": 10.0,
 	"max_velocity": 70,
 	"turn_rate": 180,
 "model": {
     "filename": "/pa/units/air/missile/missile.papa"
-  },
+  },"physics": {
+    "add_to_spatial_db": true},
 "fx_trail": {
-    "filename": "/pa/effects/specs/rocket_proj_trail.pfx",
+    "filename": "/pa/units/foundation/vehicle/t2/tank_laser_adv_ammo_trail.pfx",
     "offset": [
       0.0,
       1.3,

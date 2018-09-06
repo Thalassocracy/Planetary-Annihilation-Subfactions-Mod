@@ -103,8 +103,7 @@
 			"turn_left": "/pa/units/land/titan_bot/titan_bot_anim_left_turn.papa",
 			"turn_right": "/pa/units/land/titan_bot/titan_bot_anim_right_turn.papa",
 			"death": "/pa/units/land/titan_bot/titan_bot_anim_death.papa",
-			"dead": "/pa/units/land/titan_bot/titan_bot_anim_dead.papa",
-			"attack": "/pa/units/land/titan_bot/titan_bot_anim_attack.papa"
+			"dead": "/pa/units/land/titan_bot/titan_bot_anim_dead.papa"
 		},
 		"animtree": "/pa/anim/anim_trees/titan_bot_anim_tree.json",
 		"walk_speed": 13
@@ -113,28 +112,52 @@
 		"spec_id": "/pa/units/foundation/titan/titan_bot_bombardment.json",
 		"aim_bone": "bone_head",
 		"projectiles_per_fire": 10,
-		"muzzle_bone": "bone_head"
+		"muzzle_bone": "bone_head",
+		"record_index": 0
 	},
 	{	"spec_id": "/pa/units/foundation/titan/shield/shield_tool.json",
 		"show_range": true,
 		"aim_bone": "bone_root",
-        "record_index": 1
+        "record_index": 1,
+		"fire_event": "fired1",
+		"muzzle_bone":"bone_root"
+	},
+		{	"spec_id": "/pa/units/foundation/titan/shield/shield_tool.json",
+		"show_range": true,
+		"aim_bone": "bone_root",
+        "record_index": 2,
+		"fire_event": "fired1",
+		"muzzle_bone":"bone_root"
+	},
+		{	"spec_id": "/pa/units/foundation/titan/shield/shield_tool.json",
+		"show_range": true,
+		"aim_bone": "bone_head",
+        "record_index": 3,
+		"fire_event": "fired1",
+		"muzzle_bone":"bone_root"
+	},
+		{	"spec_id": "/pa/units/foundation/titan/shield/shield_tool.json",
+		"show_range": true,
+		"aim_bone": "bone_root",
+        "record_index": 4,
+		"fire_event": "fired1",
+		"muzzle_bone":"bone_root"
 	}
 	],
-	"attack_range_frac": 0.3,
+	"attack_range_frac": 1,
 	"teleportable": null,
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/Titan_Complete"
-		},
-		"fired": {
+		},    
+	"died": {
+      "effect_spec": "",
+      "effect_scale": 1.0,
+      "audio_cue": ""
+    },
+		"fired1": {
 			"audio_cue": "/SE/Weapons/bot/sniper_fire_anti_tac",
 			"effect_spec": "/pa/units/foundation/titan/shield/shield_hit.pfx bone_void"
-		},
-		"died": {
-			"audio_cue": "",
-			"effect_spec": "",
-			"effect_scale": 1.0
 		}
 	},
 	"audio": {

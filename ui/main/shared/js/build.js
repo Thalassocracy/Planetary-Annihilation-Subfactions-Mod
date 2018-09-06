@@ -201,7 +201,9 @@ var Build = (function() {
         "/pa/units/foundation/turret/torpedo_launcher_f.json": ["combatf", 15],
         "/pa/units/foundation/turret/ion_defense_f.json": ["combatf", 16],
 		
-		"/pa/units/foundation/utility/titan_structure.json": ["utilityf", 0],
+		
+		
+		"/pa/units/foundation/titan/titan_structure_f.json": ["utilityf", 0],
         "/pa/units/foundation/utility/control_module.json": ["utilityf", 1],
         "/pa/units/foundation/utility/radar_adv.json": ["utilityf", 8],
         "/pa/units/foundation/utility/energy_plant_2_f.json": ["utilityf", 3],
