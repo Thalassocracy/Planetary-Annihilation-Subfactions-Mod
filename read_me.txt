@@ -1,4 +1,4 @@
-FOUNDATION:
+﻿FOUNDATION:
 
 ____
 ECONOMY:
@@ -203,12 +203,6 @@ Rapture (replaces Halley):
 2x effectiveness (1 Rapture = 2 Halleys)
 *needs testing
 
-Armageddon (replaces Ragnarok; not implemented yet):
-1.25x health (15000 -. 18750)
-2x chargeup length (~1 minute -> ~1 minutes)
-Generates 300 metal per second
-Has 4 healing beams, which each repair units within 300 range for 100 metal per second
-Has massive vision radius (1000)
-Leaves no reclaim
+
 
 
