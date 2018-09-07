@@ -1,6 +1,6 @@
 if (model.BuildSet && model.BuildSet.tabsTemplate) {
             model.BuildSet.tabsTemplate = model.BuildSet.tabsTemplate.concat([
-                ['factorf', '!LOC:factory', true],
+                ['factoryf', '!LOC:factory', true],
                 ['combatf', '!LOC:combat', true],
                 ['utilityf', '!LOC:utility', true],
                 ['vehiclef', '!LOC:vehicle'],
@@ -11,3 +11,4 @@ if (model.BuildSet && model.BuildSet.tabsTemplate) {
                 ['orbital_structuref', 'orbital structure', true]
             ]);
         }
+		

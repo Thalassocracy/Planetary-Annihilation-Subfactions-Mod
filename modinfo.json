@@ -19,8 +19,8 @@
         "new_game": [
             "coui://ui/mods/com.pa.dissonant.subfactions/new_game.js"
         ],
-	"new_game": [
-	    "coui://ui/mods/com.pa.dissonant.subfactions/buildbar.js"
+	"live_game_build_bar": [
+	    "coui://ui/mods/com.pa.dissonant.subfactions/live_game_build_bar.js"
 	]
     },
     "dependencies": [
