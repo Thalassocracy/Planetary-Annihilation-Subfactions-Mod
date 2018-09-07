@@ -1,0 +1,11 @@
+Dissonant - Incompetent Project Lead
+
+With assistance from:
+Quitch - Vanilla AI support
+Nicb1 - Advice
+Stuart98 - Passageway functionality
+The entire Legion Team - Shield functionality and much inspiration
+
+Additional thanks:
+billthebluebot and nimzodragonlord, for being great sounding boards
+seb_202, Anonemous2, SpacePi, BadMonkey, Luther, johndotsun, and many others, for feedback and testing.
