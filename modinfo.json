@@ -1,6 +1,6 @@
  {
    "context": "server",
-   "identifier": "com.pa.dissonant.subfactions",
+   "identifier": "com.pa.dissonant.subfactions-test",
    "display_name": "MLA Subfaction - The Foundation",
    "description": "Mostly stable beta. Adds the Foundation subfaction to MLA. Not currently compatible with Legion. Compatible with Vanilla AI.",
    "author": "Dissonant, (see credits)",
@@ -18,7 +18,10 @@
     "scenes": {
         "new_game": [
             "coui://ui/mods/com.pa.dissonant.subfactions/new_game.js"
-        ]
+        ],
+	"live_game_build_bar": [
+	    "coui://ui/mods/com.pa.dissonant.subfactions/live_game_build_bar.js"
+	]
     },
     "dependencies": [
       "com.pa.quitch.qAIModCompatibilityPatch"
