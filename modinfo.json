@@ -5,10 +5,14 @@
    "description": "Mostly stable beta. Adds the Foundation subfaction to MLA. Not currently compatible with Legion. Compatible with Vanilla AI.",
    "author": "Dissonant, (see credits)",
 <<<<<<< HEAD
+<<<<<<< HEAD
    "version": "1.02",
 =======
    "version": "1.01",
 >>>>>>> 5ccdb0b0e4373ffab02c12ee24838c2cea725604
+=======
+   "version": "1.02",
+>>>>>>> master
    "build": "110069",
    "date": "2018-09-25",
    "signature": "not yet implemented",
