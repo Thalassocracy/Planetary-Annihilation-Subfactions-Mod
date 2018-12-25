@@ -1,2 +1,23 @@
-{"base_spec":"/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json","display_name":"!LOC:Foundation Spinner",
-"unit_types":["UNITTYPE_Tank","UNITTYPE_Mobile","UNITTYPE_AirDefense","UNITTYPE_Land","UNITTYPE_Basic","UNITTYPE_FactoryBuild","UNITTYPE_CannonBuildable","UNITTYPE_Offense", "UNITTYPE_Custom2"]}
+{"base_spec":"/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json","display_name":"!LOC:Foundation Elysian",
+"unit_types":["UNITTYPE_Tank","UNITTYPE_Mobile","UNITTYPE_AirDefense","UNITTYPE_Land","UNITTYPE_Basic","UNITTYPE_FactoryBuild","UNITTYPE_CannonBuildable","UNITTYPE_Offense", "UNITTYPE_Custom2"],
+"build_metal_cost": 120,
+"tools": [
+    {
+      "muzzle_bone": "bone_pivot",
+      "spec_id": "/pa/units/foundation/vehicle/elysian_weapon.json",
+      "aim_bone": "bone_pivot"
+    }
+  ],
+  "events": {
+    "died": {
+      "effect_scale": 1.0,
+      "audio_cue": "/SE/Death/Veh"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/veh/aa_missile_vehicle_fire",
+      "effect_spec": "/pa/units/foundation/vehicle/elysian_ammo_launch.json socket_muzzle"
+    },
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    }
+  }}
