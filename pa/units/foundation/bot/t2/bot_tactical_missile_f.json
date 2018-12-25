@@ -7,10 +7,10 @@
     {
       "spec_id": "/pa/units/foundation/bot/t2/avalanche_rocket_weapon.json",
       "muzzle_bone": [
-        "socket_rightMuzzle",
-        "socket_leftMuzzle"
+        "bone_body",
+        "bone_body"
       ],
-      "aim_bone": "socket_rightMuzzle"
+      "aim_bone": "bone_body"
     }
   ]
 }
