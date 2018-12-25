@@ -9,7 +9,7 @@
   "splash_radius": 0.75,
   "turn_rate": 720.0,
   "fx_trail": {
-    "filename": "/pa/units/foundation/vehicle/elysian_ammo_invis.pfx",
+    "filename": "/pa/units/foundation/vehicle/elysian_ammo_impact.pfx",
     "offset": [
       0.0,
       1.3,
@@ -21,7 +21,7 @@
   },
   "events": {
     "died": {
-      "effect_spec": "/pa/units/foundation/vehicle/elysian_ammo_impact.pfx"
+      "effect_spec": "/pa/units/foundation/vehicle/elysian_ammo_trail_invis.pfx"
     }
   }
 }
