@@ -4,22 +4,22 @@ ____
 ECONOMY:
 
 Commander:
-1.2x energy production (2000 -> 2400)
-3.0x metal storage (1500 -> 4500)
-0.33x energy storage (45000 -> 15000)
+energy production: 2000 -> 2400
+metal storage: 1500 -> 4500
+energy storage: 45000 -> 15000
 
 All Factories:
 1.2x energy usage per second
 
 Metal Storage:
-2.0x capacity (20000 -> 40000)
+metal storage: 20000 -> 40000
 
 Energy Storage: 
-0.5x capacity (100000 -> 50000)
+energy storage: 100000 -> 50000
 
 Energy Plant:
-33% smaller build distance (15 -> 10)
-Smaller Mesh size ([5,5,5] -> [10,10,11.3]
+build distance: 15 -> 10
+mesh size: [5,5,5] -> [10,10,11.3]
 
 Energy Plant (circle) {new unit}:
 Same as energy plant, but built in a circular formation.
@@ -29,10 +29,13 @@ removed
 
 Font of Creation (new unit):
 Stationary fabber
+Cannot reclaim living units*
+Cannot support items that it cannot build*
+Does not use energy
 150 metal per second
 200 range
 Costs 2000 metal
-Does not use energy
+
 
 ___
 BOT:
