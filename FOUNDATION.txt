@@ -40,7 +40,7 @@ Dox -> Scamper:
 No longer attempts to target air
 Now fires seeking missiles
 projectiles per attack: 2 -> 1
-damage per projectile: 10 -> 20
+damage per projectile: 10 -> 15
 AoE radius: 0 -> 5
 AoE damage: 0 -> 10
 range: 75 -> 65
@@ -61,7 +61,7 @@ shot deviation: 1 -> 0
 
 
 Spark:
-speed: 14 -> 10
+speed: 14 -> 12
 
 Martyr (replaces Boombot):
 Hover
@@ -109,6 +109,14 @@ cost: 160 -> 120
 range: 120 -> 100
 damage per projectile: 25 -> 40
 fire rate: 2 -> 1.5
+
+Skitter -> Oracle:
+Radar does not use energy
+Radar applies to underwater units too
+speed: 25 -> 20
+vision: 200 -> 125
+radar: 200 -> 300
+detection: 200 -> 300
 
 
 Leveller -> Zealot:
@@ -204,6 +212,9 @@ Does 1200 DPS split on up to 25 different targets.
 Cannot target ground, naval, or submerged units.
 Requires 2000 energy per second to maintain weapons.
 
+Kraken -> Riptide:
+range: 150 -> 170
+Main weapon fire rate: 5 -> 4
 
 ___
 ORBITAL:

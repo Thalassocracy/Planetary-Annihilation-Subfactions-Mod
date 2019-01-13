@@ -1,6 +1,50 @@
 {
 	"base_spec": "/pa/units/land/land_scout/land_scout.json",
-	"display_name": "!LOC:Foundation Skitter",
-	"unit_types": ["UNITTYPE_Tank", "UNITTYPE_Scout", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Offense", "UNITTYPE_Custom2"]
-
+	"display_name": "!LOC:Foundation Oracle",
+	"unit_types": ["UNITTYPE_Tank", "UNITTYPE_Scout", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Offense", "UNITTYPE_Custom2"],
+	"navigation": {
+		"move_speed": 20,
+		"brake": 250,
+		"acceleration": 250,
+		"turn_speed": 360,
+		"group_preference": "back"
+	  },
+	  "recon": {
+		"observer": {
+		  "items": [
+			{
+			  "radius": 125,
+			  "channel": "sight",
+			  "shape": "capsule",
+			  "layer": "surface_and_air"
+			},
+			{
+			  "uses_energy": false,
+			  "radius": 300,
+			  "channel": "radar",
+			  "shape": "capsule",
+			  "layer": "surface_and_air"
+			},
+			{
+				"uses_energy": false,
+				"radius": 300,
+				"channel": "radar",
+				"shape": "capsule",
+				"layer": "underwater"
+			  },
+			{
+			  "radius": 125,
+			  "channel": "sight",
+			  "shape": "capsule",
+			  "layer": "underwater"
+			},
+			{
+			  "radius": 300,
+			  "channel": "sight",
+			  "shape": "capsule",
+			  "layer": "mine"
+			}
+		  ]
+		}
+	  }
 }
