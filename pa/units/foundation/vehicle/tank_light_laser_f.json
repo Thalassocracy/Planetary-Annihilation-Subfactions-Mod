@@ -1,2 +1,5 @@
-{"base_spec":"/pa/units/land/tank_light_laser/tank_light_laser.json","display_name":"Foundation Ant",
-"unit_types":["UNITTYPE_Tank","UNITTYPE_Mobile","UNITTYPE_Offense","UNITTYPE_Land","UNITTYPE_Basic","UNITTYPE_FactoryBuild","UNITTYPE_CannonBuildable", "UNITTYPE_Custom2"]}
+{"base_spec":"/pa/units/land/tank_light_laser/tank_light_laser.json","display_name":"Foundation Histericlese",
+"unit_types":["UNITTYPE_Tank","UNITTYPE_Mobile","UNITTYPE_Offense","UNITTYPE_Land","UNITTYPE_Basic","UNITTYPE_FactoryBuild","UNITTYPE_CannonBuildable", "UNITTYPE_Custom2"],
+"max_health": 235,
+"build_metal_cost": 140
+}
