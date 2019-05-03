@@ -140,6 +140,15 @@ AIR:
 Icarus:
 removed
 
+Bumblebee -> Thunder:
+damage: 75 -> 25
+ammo capacity: 425 -> 400
+ammo usage: 75 -> 100
+Attacks leave mines that deal 50 damage
+mine AoE: 10 -> 15
+Mines last for 3 seconds.
+Mines only do 25 damage if killed before triggering or expiring.
+
 Phoenix -> Omen:
 Omnidirectional Targeting
 cost: 820 -> 574
