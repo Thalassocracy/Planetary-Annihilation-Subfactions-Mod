@@ -140,6 +140,13 @@ AIR:
 Icarus:
 removed
 
+Hummingbird -> Lightning:
+move speed: 90 -> 95
+turn speed: 270 -> 220
+aggression distance: 50 -> 55
+acceleration: 90 -> 50
+breaking: 30 -> 15
+
 Bumblebee -> Thunder:
 damage: 75 -> 25
 ammo capacity: 425 -> 400
