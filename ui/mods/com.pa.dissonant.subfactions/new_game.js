@@ -1,3 +1,60 @@
+//START - moar code taken from Legion for purple commander select
+var subfactionsLoaded;
+
+if (!subfactionsLoaded) {
+
+    subfactionsLoaded = true;
+
+    function loadSubfactions() {
+
+        var subfactionsEnabled;
+
+        model.enableSubfactions = function () {
+
+            if (subfactionsEnabled) {
+                return;
+            }
+
+            subfactionsEnabled = true;
+
+            loadCSS('coui://ui/mods/com.pa.dissonant.subfactions/css/subf_commander_picker.css');
+
+            var foundationcommander = ['pa/units/commanders/raptor_nemicus/raptor_nemicus.json'];
+
+            model.isNotFoundation = function (commander, isEmpty) {
+              if (!isEmpty) {
+                return !_.includes(foundationcommander, commander);
+              }
+              else {
+                return true;
+              }
+            }
+            
+            model.isMLA = function (commander, isEmpty) {
+              if (!isEmpty) {
+                return !_.includes(foundationcommander, commander);
+              }
+            }
+
+            //Style Commander Picker Legion
+            $('#commander-picker .div-commander-picker-item.btn_std_ix').attr("data-bind", "css: {foundationcommander:!model.isNotFoundation($data)}, click: function () { model.setCommander($index()) }, click_sound: 'default', rollover_sound: 'default'");
+            $('#ai-commander-picker .div-commander-picker-item.btn_std_ix').attr("data-bind", "css: {foundationcommander: !model.isNotFoundation($data)}, click: function () { model.setAICommander(model.selectedAI(), $data) }, click_sound: 'default', rollover_sound: 'default'");
+            
+            $('.slot-player').attr("data-bind", "css: {foundationslot: !model.isNotFoundation($data.commander(),$data.isEmpty()), mlaslot: model.isMLA($data.commander(),$data.isEmpty()), ready: isReady, loading: isLoading}");
+        }
+        
+        model.enableSubfactions();
+    }
+
+    try {
+        loadSubfactions();
+    } catch (e) {
+        console.error(e);
+    }
+}
+//END
+
+
 model.localChatMessage(loc("!LOC:Subfaction Mod"), loc("!LOC:currently a work in progress. To play as Foundation, select Nemicus."));
 
 /* START - Button to set AI to Foundation (from Quitch)
@@ -53,3 +110,5 @@ locUpdateDocument();
 //ENDOF NEED PATCHED lobby.js
 
 // END - Button to set AI to Foundation
+
+

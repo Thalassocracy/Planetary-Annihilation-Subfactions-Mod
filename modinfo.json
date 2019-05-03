@@ -25,9 +25,9 @@
     },
     "dependencies": [
       "com.pa.quitch.qAIModCompatibilityPatch",
-	  "com.pa.dissonant.subfactions-client"
+	  "com.pa.dissonant.subfactions-client-test"
     ],
 	  "companions": [
-    "com.pa.dissonant.subfactions-client"
+    "com.pa.dissonant.subfactions-client-test"
 	]
  }
