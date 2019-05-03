@@ -143,6 +143,22 @@ AIR:
 Icarus:
 removed
 
+Hummingbird -> Lightning:
+move speed: 90 -> 95
+turn speed: 270 -> 220
+aggression distance: 50 -> 55
+acceleration: 90 -> 50
+breaking: 30 -> 15
+
+Bumblebee -> Thunder:
+damage: 75 -> 25
+ammo capacity: 425 -> 400
+ammo usage: 75 -> 100
+Attacks leave mines that deal 50 damage
+mine AoE: 10 -> 15
+Mines last for 3 seconds.
+Mines only do 25 damage if killed before triggering or expiring.
+
 Phoenix -> Omen:
 Omnidirectional Targeting
 cost: 820 -> 574

@@ -1,0 +1,80 @@
+{
+  "TEMP_texelinfo": 2.37699,
+  "area_build_separation": 1.0,
+  "area_build_type": "Sphere",
+  "build_metal_cost": 1,
+  "description": "!LOC:Land mine- Detonates when enemy units are in proximity.",
+  "display_name": "!LOC:Land Mine",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/barrier"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/barrier",
+      "effect_spec": "/pa/effects/specs/default_explosion_bot.pfx"
+    }
+  },
+  "max_health": 30,
+  "mesh_bounds": [
+    4.0,
+    4.0,
+    1.0
+  ],
+  "model": {
+    "filename": "/pa/units/sea/sea_mine/sea_mine.papa"
+  },
+  "physics": {
+    "allow_pushing": false,
+    "allow_underground": false,
+    "collide_with_types": [
+      "Projectile"
+    ],
+    "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "push_sideways": false,
+    "radius": 1,
+    "shape": "Box",
+    "type": "Structure"
+  },
+  "recon": {
+    "observable": {
+      "layer": "mine"
+    },
+    "observer": {
+      "items": [
+        {
+          "channel": "radar",
+          "layer": "surface_and_air",
+          "radius": 2,
+          "shape": "sphere"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": 7.0
+  },
+  "si_name": "land_mine",
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "strategic_icon_priority": 3,
+  "tools": [
+    {
+      "aim_bone": "bone_root",
+      "muzzle_bone": "bone_root",
+      "spec_id": "/pa/units/foundation/air/bmine/bmine_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_root",
+      "spec_id": "/pa/units/foundation/air/bmine/bmine_timed_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Land",
+    "UNITTYPE_Naval",
+    "UNITTYPE_Defense"
+  ],
+  "wreckage_health_frac": 0.0,
+  "death_weapon": {
+    "ground_ammo_spec": "/pa/units/foundation/air/bmine/bmine_death_ammo.json"
+  }
+}
