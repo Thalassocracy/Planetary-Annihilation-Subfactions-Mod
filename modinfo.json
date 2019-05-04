@@ -1,6 +1,6 @@
  {
    "context": "server",
-   "identifier": "com.pa.dissonant.subfactions",
+   "identifier": "com.pa.dissonant.subfactions-test",
    "display_name": "MLA Subfaction - The Foundation (Server)",
    "description": "Mostly stable beta. Adds the Foundation subfaction to MLA. Not currently compatible with Legion. Compatible with Vanilla AI.",
    "author": "Dissonant, (see credits)",
@@ -9,7 +9,7 @@
    "date": "2019-05-02",
    "signature": "not yet implemented",
    "forum": "https://forums.uberent.com/threads/wip-server-mla-subfactions-mod.73106/",
-   "priority": 95,
+   "priority": 94,
    "icon": "https://i.imgur.com/03Zd5iH.png",
 
    "titansOnly": true,

@@ -1,0 +1,5 @@
+{
+    "base_spec": "/pa/units/foundation/bot/charger_arc/arc_0_ammo.json",
+    "damage": 8,
+    "spawn_unit_on_death": "/pa/units/foundation/bot/charger_arc/arc_5_body.json"
+}
