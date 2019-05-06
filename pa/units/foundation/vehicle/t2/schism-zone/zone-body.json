@@ -1,0 +1,54 @@
+{
+    "display_name": "Schism Zone",
+    "base_spec": "/pa/units/foundation/bot/charger_arc/arc_1_body.json",
+    "tools": [
+        {
+            "aim_bone": "bone_root",
+            "record_index": 0,
+            "show_range": true,
+            "spec_id": "/pa/units/foundation/vehicle/t2/schism-zone/zone-pulse-wep.json"
+        }
+    ],
+    "events": {
+        "died": {
+            "effect_spec": "/pa/effects/specs/none.pfx",
+            "audio_cue": "/SE/Weapons/bot/spark_fire",
+            "effect_scale": 1
+        },
+        "fired": {
+            "effect_spec": "/pa/units/foundation/vehicle/t2/schism-zone/zone_attack.pfx.json bone_root",
+            "audio_cue": "/SE/Weapons/bot/sniper_fire_anti_tac",
+            "effect_scale": 1
+        }
+    },
+    "model": {
+        "filename": "/pa/units/land/land_mine/land_mine.papa"
+    },
+    "fx_offsets": [
+        {
+          "type": "idle",
+          "orientation": [
+            0,
+            0,
+            0
+          ],
+          "filename": "/pa/units/foundation/vehicle/t2/schism-zone/zone_idle.pfx.json",
+          "bone": "bone_root",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "selection_icon": {
+        "diameter": 40
+      },
+      "build_metal_cost": 5000,
+      "max_health": 5000,
+      "passive_health_regen": -1000,
+      "death_weapon": {
+        "ground_ammo_spec": "/pa/units/foundation/vehicle/t2/schism-zone/zone-timer-ammo.json"
+      },
+      "si_name": "schism_zone"
+}

@@ -1,3 +1,21 @@
-{"base_spec":"/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json","display_name":"!LOC:Foundation Sheller",
-
-"unit_types":["UNITTYPE_Tank","UNITTYPE_Mobile","UNITTYPE_Offense","UNITTYPE_Land","UNITTYPE_Artillery","UNITTYPE_Advanced","UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"]}
+{
+    "base_spec": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json",
+    "display_name": "!LOC:Foundation Schism",
+    "unit_types": [
+        "UNITTYPE_Tank",
+        "UNITTYPE_Mobile",
+        "UNITTYPE_Offense",
+        "UNITTYPE_Land",
+        "UNITTYPE_Artillery",
+        "UNITTYPE_Advanced",
+        "UNITTYPE_FactoryBuild",
+        "UNITTYPE_Custom2"
+    ],
+    "tools": [
+        {
+          "spec_id": "/pa/units/foundation/vehicle/t2/schism_weapon.json",
+          "muzzle_bone": "socket_muzzle",
+          "aim_bone": "socket_aim"
+        }
+      ]
+}

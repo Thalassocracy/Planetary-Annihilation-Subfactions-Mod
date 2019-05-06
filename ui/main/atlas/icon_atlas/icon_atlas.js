@@ -127,7 +127,8 @@ $(document).ready(function () {
             'artillery_unit_launcher',
             'titan_structure',
             'tutorial_titan_commander',
-			
+            
+            'blank',
 			
 			'artillery_short_f',
             'artillery_long_f',
@@ -243,7 +244,9 @@ $(document).ready(function () {
             'artillery_unit_launcher_f',
             'titan_structure_f',
 			'heal_drone_f',
-			'font_of_creation',
+            'font_of_creation',
+            'shism_drone',
+            'torch_marker'
         ]);
 
         self.sendIconList = function () {

@@ -9,7 +9,7 @@
     "carpet_fire": true,
     "carpet_wait_for_full_ammo": true,
     "idle_aim_delay": 3.0,
-    "max_range": 9,
+    "max_range": 14,
     "pitch_range": 360,
     "pitch_rate": 1080,
     "rate_of_fire": 0.5,

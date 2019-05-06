@@ -30,13 +30,16 @@
       "type": "hover"
     },
     "physics": {
-      "allow_pushing": true,
-      "radius": 0
+      "allow_pushing": false,
+      "radius": 0,
+      "push_sideways": false,
+      "add_to_spatial_db": false
     },
+    "show_strategic_icon": false,
     "recon": {
       "observable": {
         "ignore_radar": true,
-        "ignore_sight": true,
+        "ignore_sight": false,
         "layer": "surface_and_air"
       },
       "observer": {
@@ -79,6 +82,9 @@
       "UNITTYPE_Land",
       "UNITTYPE_Hover"
     ],
-    "wreckage_health_frac": 0.0
+    "wreckage_health_frac": 0.0,
+    "command_caps": [
+    ],
+    "si_name": "blank"
   }
   
