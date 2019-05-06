@@ -245,7 +245,7 @@ $(document).ready(function () {
             'titan_structure_f',
 			'heal_drone_f',
             'font_of_creation',
-            'shism_drone',
+            'schism_zone',
             'torch_marker'
         ]);
 
