@@ -1,4 +1,4 @@
-{"base_spec":"/pa/units/land/bot_tactical_missile/bot_tactical_missile.json","display_name":"Foundation Bluehawk",
+{"base_spec":"/pa/units/land/bot_tactical_missile/bot_tactical_missile.json","display_name":"Foundation Avalanche",
 "unit_types":["UNITTYPE_Bot","UNITTYPE_Mobile","UNITTYPE_Offense","UNITTYPE_Land","UNITTYPE_Advanced","UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
 "description": "!LOC:Mobile Missile Launcher-Long Range. Highly inaccurate. Fires at land and naval surface units.",
 "build_metal_cost": 500,

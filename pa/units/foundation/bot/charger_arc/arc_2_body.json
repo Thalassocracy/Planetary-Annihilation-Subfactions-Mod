@@ -1,0 +1,24 @@
+{
+    "display_name": "Arc 2",
+    "base_spec": "/pa/units/foundation/bot/charger_arc/arc_1_body.json",
+    "tools": [
+      {
+        "aim_bone": "bone_root",
+        "muzzle_bone": [
+          "bone_root",
+          "bone_root"
+        ],
+        "projectiles_per_fire": 1,
+        "record_index": 0,
+        "show_range": false,
+        "spec_id": "/pa/units/foundation/bot/charger_arc/arc_2_wep.json"
+      },
+      {
+        "aim_bone": "bone_root",
+        "record_index": 0,
+        "show_range": false,
+        "spec_id": "/pa/units/foundation/bot/charger_arc/arc_timer_wep.json"
+      }
+    ]
+  }
+  

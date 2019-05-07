@@ -39,6 +39,7 @@ Costs 2000 metal
 
 ___
 BOT:
+
 Dox -> Scamper:
 No longer attempts to target air
 Now fires seeking missiles
@@ -51,27 +52,35 @@ turn speed: 720 -> 150
 break: instant -> 150
 acceleration: 50 - 20
 
-
-Grenadier -> Torchbearer:
+Grenadier -> Torch:
 speed: 12 -> 11
 fire rate: 0.4 -> 0.3
 projectiles per attack: 2 -> 1
 range: 125 -> 200
-shot damage: 40 -> 120
-shot velocity: 90 -> 45
-splash radius: 6 -> 3
+splash radius: 6 -> 0
+shot damage: 40 -> 0
 shot deviation: 1 -> 0
+Targets a location for divine judgement.
+Divine judgement has a 3-second delay.
+Divine judgement does 120 damage.
+Divine judgement has a radius of 3.
 
-
-Spark:
+Spark -> Charge:
 speed: 14 -> 12
+range: 65 -> 75
+energy consumption: 200 -> 100
+energy usage per shot: 400 -> 200
+Splash attack replaced with a chain lightning attack
+Chain lightning can hit up to 8 times
+Chain lightning can choose new targets per hit
+Chain lightning does 128/64/32/16/8/4/2/1 damage
+Chain lightning has 15/14/13/12/11/10/9/0 chain range
 
-Martyr (replaces Boombot):
+Boombot -> Martyr:
 Hover
 damage: 600 -> 500
 
-
-Priest (replaces Stitch):
+Stitch -> Priest:
 Does not use energy
 Cannot reclaim
 Cannot build Mines
@@ -82,7 +91,7 @@ range: 60 -> 80
 speed: 12 -> 10
 
 
-Bishop (replaces Mend):
+Mend -> Bishop:
 Only builds Passageways (Teleporters) and Shrines (Walls)
 Does not use energy
 Cannot reclaim
@@ -91,6 +100,17 @@ health: 150 -> 300
 metal usage: 60 -> 100
 range: 75 -> 100
 
+Bluehawk -> Avalanche:
+cost: 800 -> 500
+hp: 200 -> 300
+range: 220 -> 235
+pitch range: 0 -> 60
+yaw range: 0 -> 180
+Cannot target orbital units
+Fires a volley of highly inaccurate missiles
+Volleys have 4 missiles.
+Volleys are fired every 3 seconds
+Missiles do 320 damage each
 
 ___
 VEHICLE:
@@ -98,14 +118,12 @@ Ant -> Histericlese:
 cost: 150 -> 140
 health: 250 -> 235
 
-
 Inferno -> Crusader:
 cost: 225 -> 135
 range: 20 -> 40
 damage: 100 -> 10
 speed: 10 -> 12
 acceleration: 180 -> 360
-
 
 Spinner -> Elysian:
 cost: 160 -> 120
@@ -133,9 +151,20 @@ yaw rate: 30 -> 25
 yaw firing arc: 0 -> 40
 
 Vanguard -> Paladin:
+cost: 1500 -> 1600
 Repairs units within 40 range for 80 metal per second
 Does not use energy
 Radar removed
+
+Sheller -> Schism:
+damage: 400 -> 100
+splash radius: 15 -> 3
+Projectile travels much faster on average (difficult to quantify)
+Projectiles release a damaging field.
+Fields last 5 seconds.
+Fields deal 20 damage every 0.25 seconds.
+Fields have 20 radius.
+Fields deal 200 damage on expiration.
 
 ___
 AIR:
@@ -158,6 +187,7 @@ Attacks leave mines that deal 50 damage
 mine AoE: 10 -> 15
 Mines last for 3 seconds.
 Mines only do 25 damage if killed before triggering or expiring.
+
 
 Phoenix -> Omen:
 Omnidirectional Targeting
@@ -192,7 +222,6 @@ health: 1000 -> 700
 speed: 30 -> 60
 range: 120 -> 80
 
-
 ___
 NAVAL:
 
@@ -207,13 +236,13 @@ Narwhal:
 Group preference changed to back.
 speed: 9 -> 10
 
+Barracuda:
+removed
+
 Halcyon (new unit):
 Tanky low-range hover unit.
 Only attacks submerged units.
 350 range Sonar.
-
-Barracuda:
-removed
 
 Orca -> Oathkeeper:
 Both normal weapons removed.
@@ -237,6 +266,7 @@ Main weapon fire rate: 5 -> 4
 
 ___
 ORBITAL:
+
 Solar Array -> Prelate:
 No energy generation
 Repairs units within 250 range for 400 metal per second
