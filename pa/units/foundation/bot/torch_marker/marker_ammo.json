@@ -1,0 +1,15 @@
+{
+    "ammo_type": "PBAOE",
+    "armor_damage_map": {
+      "AT_Air": 0.0
+    },
+    "damage": 120,
+    "damage_volume": {
+      "initial_radius": 6.0
+    },
+    "sim_fire_effect": "/pa/units/foundation/bot/torch_marker/marker_hit.pfx.json",
+    "splash_damages_allies": false,
+    "splash_radius": 6,
+    "splash_damage": 120,
+    "full_damage_splash_radius": 3
+  }
