@@ -1,6 +1,6 @@
  {
    "context": "server",
-   "identifier": "com.pa.dissonant.subfactions",
+   "identifier": "com.pa.dissonant.subfactions-test",
    "display_name": "MLA Subfaction - The Foundation (Server)",
    "description": "Mostly stable beta. Adds the Foundation subfaction to MLA. Not currently compatible with Legion. Compatible with Vanilla AI.",
    "author": "Dissonant, (see credits)",
