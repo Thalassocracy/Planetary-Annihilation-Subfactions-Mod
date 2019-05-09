@@ -3,8 +3,10 @@
 	"damage": 75,
 	"splash_damage": 35,
 	"splash_radius": 3,
-	"initial_velocity": 5.0,"physics": {
-    "add_to_spatial_db": true},
+	"initial_velocity": 5.0,
+	"physics": {
+		"add_to_spatial_db": true
+	},
 	"max_velocity": 50.0,
 	"lifetime": 6,
 	"model": {

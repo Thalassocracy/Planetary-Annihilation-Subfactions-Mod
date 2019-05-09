@@ -4,5 +4,8 @@
 	"splash_damage": 10,
 	"splash_radius": 0.5,
 	"collision_check": "target",
-	"fx_beam_spec": "/pa/units/foundation/naval/t2/borealis_beam_green.pfx"
+	"fx_beam_spec": "/pa/units/foundation/naval/t2/borealis_beam_green.pfx",
+	"physics": {
+		"add_to_spatial_db": true
+	}
 }
