@@ -1,6 +1,6 @@
 {
 	"base_spec": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.json",
-	"display_name": "!LOC:Foundation Paladin",
+	"display_name": "!LOC:Foundation Templar",
 	"description": "!LOC:Repairs nearby units for 80 metal per second. Does not use energy. No Radar (modified Vanguard); Advanced short range, heavily armored vehicle.",
 	"build_metal_cost": 1600,
 	"unit_types": ["UNITTYPE_Tank", "UNITTYPE_Heavy", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom2"],
